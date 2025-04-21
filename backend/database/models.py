@@ -6,14 +6,14 @@ class Category(Base):
     __tablename__ = "categories"
 
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String, nullable=False)
+    name = Column(String(100), nullable=False)
     products = relationship("Product", back_populates="category")
 
 class Product(Base):
     __tablename__ = "products"
 
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String, nullable=False)
+    name = Column(String(200), nullable=False)
     price = Column(Float, nullable=False)
     category_id = Column(Integer, ForeignKey("categories.id"))
     category = relationship("Category", back_populates="products")
@@ -23,9 +23,9 @@ class Customer(Base):
     __tablename__ = "customers"
 
     id = Column(Integer, primary_key=True, index=True)
-    name = Column(String, nullable=False)
-    address = Column(String, nullable=False)
-    phone_number = Column(String, nullable=False)
+    name = Column(String(100), nullable=False)
+    address = Column(String(255), nullable=False)
+    phone_number = Column(String(20), nullable=False)
     cart_items = relationship("Cart", back_populates="customer")
 
 class Cart(Base):
