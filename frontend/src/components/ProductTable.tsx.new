@@ -1,0 +1,299 @@
+import React, { useState, useEffect } from 'react';
+import { Dialog, Checkbox, TextField, IconButton } from '@mui/material';
+import FilterAltIcon from '@mui/icons-material/FilterAlt';
+import './ProductTable.css';
+
+interface Product {
+  category: string;
+  version: string;
+  description: string;
+  price: string;
+  license: string;
+}
+
+interface FilterDialogProps {
+  open: boolean;
+  onClose: () => void;
+  options: string[];
+  selectedOptions: string[];
+  onSelectAll: () => void;
+  onUnselectAll: () => void;
+  onChange: (value: string) => void;
+  title: string;
+  searchValue: string;
+  onSearchChange: (value: string) => void;
+}
+
+const FilterDialog: React.FC<FilterDialogProps> = ({
+  open,
+  onClose,
+  options,
+  selectedOptions,
+  onSelectAll,
+  onUnselectAll,
+  onChange,
+  title,
+  searchValue,
+  onSearchChange
+}) => {
+  const filteredOptions = options.filter(option => 
+    option.toLowerCase().includes(searchValue.toLowerCase())
+  );
+
+  return (
+    <Dialog open={open} onClose={onClose}>
+      <div className="filter-dialog">
+        <h2>{title}</h2>
+        <TextField
+          label="Search"
+          variant="outlined"
+          size="small"
+          value={searchValue}
+          onChange={(e) => onSearchChange(e.target.value)}
+          className="search-field"
+          fullWidth
+          margin="normal"
+        />
+        <div className="filter-actions">
+          <button onClick={onSelectAll}>Select All</button>
+          <button onClick={onUnselectAll}>Unselect All</button>
+        </div>
+        <div className="filter-options">
+          {filteredOptions.map((option) => (
+            <div key={option} className="filter-option">
+              <Checkbox
+                checked={selectedOptions.includes(option)}
+                onChange={() => onChange(option)}
+              />
+              <span>{option}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </Dialog>
+  );
+};
+
+const ProductTable: React.FC = () => {
+  const [activeDialog, setActiveDialog] = useState<'category' | 'version' | 'price' | null>(null);
+  const [searchTerms, setSearchTerms] = useState({
+    description: '',
+    category: '',
+    version: '',
+    price: ''
+  });
+
+  const [products] = useState<Product[]>([
+    {
+      "category": "phone",
+      "version": "1.0",
+      "description": "A mobile phone with a 6.5-inch display and 128GB storage",
+      "price": "$699",
+      "license": "MIT"
+    },
+    {
+      "category": "phone",
+      "version": "2.0",
+      "description": "A mobile phone with a 6.5-inch display and 256GB storage",
+      "price": "$799",
+      "license": "MIT"
+    },
+    {
+      "category": "phone",
+      "version": "3.0",
+      "description": "A mobile phone with a 6.5-inch display and 512GB storage",
+      "price": "$899",
+      "license": "MIT"
+    },
+    {
+      "category": "phone",
+      "version": "4.0",
+      "description": "A mobile phone with a 6.5-inch display and 1TB storage",
+      "price": "$999",
+      "license": "MIT"
+    },
+    {
+      "category": "tv",
+      "version": "1.0",
+      "description": "A 55-inch 4K TV with HDR support",
+      "price": "$799",
+      "license": "MIT"
+    },
+    {
+      "category": "tv",
+      "version": "2.0",
+      "description": "A 65-inch 4K TV with HDR support",
+      "price": "$999",
+      "license": "MIT"
+    },
+    {
+      "category": "macbook",
+      "version": "1.0",
+      "description": "A MacBook with M1 chip and 256GB storage",
+      "price": "$1299",
+      "license": "MIT"
+    },
+    {
+      "category": "macbook",
+      "version": "2.0",
+      "description": "A MacBook with M1 chip and 512GB storage",
+      "price": "$1499",
+      "license": "MIT"
+    },
+    {
+      "category": "earbuds",
+      "version": "1.0",
+      "description": "Wireless earbuds with noise cancellation",
+      "price": "$199",
+      "license": "MIT"
+    },
+    {
+      "category": "earbuds",
+      "version": "2.0",
+      "description": "Wireless earbuds with noise cancellation and touch controls",
+      "price": "$249",
+      "license": "MIT"
+    }
+  ]);
+
+  const [filteredProducts, setFilteredProducts] = useState<Product[]>(products);
+  const [categoryFilter, setCategoryFilter] = useState<string[]>([]);
+  const [versionFilter, setVersionFilter] = useState<string[]>([]);
+  const [priceFilter, setPriceFilter] = useState<string[]>([]);
+
+  const uniqueCategories = Array.from(new Set(products.map(p => p.category)));
+  const uniqueVersions = Array.from(new Set(products.map(p => p.version)));
+  const uniquePrices = Array.from(new Set(products.map(p => p.price)));
+
+  useEffect(() => {
+    let filtered = [...products];
+
+    if (categoryFilter.length > 0) {
+      filtered = filtered.filter(p => categoryFilter.includes(p.category));
+    }
+    if (versionFilter.length > 0) {
+      filtered = filtered.filter(p => versionFilter.includes(p.version));
+    }
+    if (priceFilter.length > 0) {
+      filtered = filtered.filter(p => priceFilter.includes(p.price));
+    }
+    if (searchTerms.description) {
+      filtered = filtered.filter(p => 
+        p.description.toLowerCase().includes(searchTerms.description.toLowerCase())
+      );
+    }
+
+    setFilteredProducts(filtered);
+  }, [categoryFilter, versionFilter, priceFilter, searchTerms.description, products]);
+
+  return (
+    <div className="product-table-container">
+      <TextField
+        label="Search by description"
+        variant="outlined"
+        size="small"
+        value={searchTerms.description}
+        onChange={(e) => setSearchTerms(prev => ({ ...prev, description: e.target.value }))}
+        className="description-search"
+        fullWidth
+        margin="normal"
+      />
+      <table className="product-table">
+        <thead>
+          <tr>
+            <th>
+              Category
+              <IconButton className="filter-button" onClick={() => setActiveDialog('category')}>
+                <FilterAltIcon />
+              </IconButton>
+            </th>
+            <th>
+              Version
+              <IconButton className="filter-button" onClick={() => setActiveDialog('version')}>
+                <FilterAltIcon />
+              </IconButton>
+            </th>
+            <th>Description</th>
+            <th>
+              Price
+              <IconButton className="filter-button" onClick={() => setActiveDialog('price')}>
+                <FilterAltIcon />
+              </IconButton>
+            </th>
+            <th>License</th>
+          </tr>
+        </thead>
+        <tbody>
+          {filteredProducts.map((product, index) => (
+            <tr key={index}>
+              <td>{product.category}</td>
+              <td>{product.version}</td>
+              <td>{product.description}</td>
+              <td>{product.price}</td>
+              <td>{product.license}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+
+      <FilterDialog
+        open={activeDialog === 'category'}
+        onClose={() => setActiveDialog(null)}
+        options={uniqueCategories}
+        selectedOptions={categoryFilter}
+        onSelectAll={() => setCategoryFilter(uniqueCategories)}
+        onUnselectAll={() => setCategoryFilter([])}
+        onChange={(value) => {
+          setCategoryFilter(prev => 
+            prev.includes(value) 
+              ? prev.filter(v => v !== value)
+              : [...prev, value]
+          )
+        }}
+        title="Filter by Category"
+        searchValue={searchTerms.category}
+        onSearchChange={(value) => setSearchTerms(prev => ({ ...prev, category: value }))}
+      />
+
+      <FilterDialog
+        open={activeDialog === 'version'}
+        onClose={() => setActiveDialog(null)}
+        options={uniqueVersions}
+        selectedOptions={versionFilter}
+        onSelectAll={() => setVersionFilter(uniqueVersions)}
+        onUnselectAll={() => setVersionFilter([])}
+        onChange={(value) => {
+          setVersionFilter(prev => 
+            prev.includes(value) 
+              ? prev.filter(v => v !== value)
+              : [...prev, value]
+          )
+        }}
+        title="Filter by Version"
+        searchValue={searchTerms.version}
+        onSearchChange={(value) => setSearchTerms(prev => ({ ...prev, version: value }))}
+      />
+
+      <FilterDialog
+        open={activeDialog === 'price'}
+        onClose={() => setActiveDialog(null)}
+        options={uniquePrices}
+        selectedOptions={priceFilter}
+        onSelectAll={() => setPriceFilter(uniquePrices)}
+        onUnselectAll={() => setPriceFilter([])}
+        onChange={(value) => {
+          setPriceFilter(prev => 
+            prev.includes(value) 
+              ? prev.filter(v => v !== value)
+              : [...prev, value]
+          )
+        }}
+        title="Filter by Price"
+        searchValue={searchTerms.price}
+        onSearchChange={(value) => setSearchTerms(prev => ({ ...prev, price: value }))}
+      />
+    </div>
+  );
+};
+
+export default ProductTable;

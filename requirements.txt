@@ -1,0 +1,92 @@
+
+create html file contain a tabble with the following columns:
+- category
+- Version
+- Description
+- Price
+- License
+products = [
+    {
+        "category": "phone",
+        "version": "1.0",
+        "description": "A mobile phone with a 6.5-inch display and 128GB storage",
+        "price": "$699",
+        "license": "MIT"
+    },
+    {
+        "category": "phone",
+        "version": "2.0",
+        "description": "A mobile phone with a 6.5-inch display and 256GB storage",
+        "price": "$799",
+        "license": "MIT"
+    },
+    {
+        "category": "phone",
+        "version": "3.0",
+        "description": "A mobile phone with a 6.5-inch display and 512GB storage",
+        "price": "$899",
+        "license": "MIT"
+    },
+    {
+        "category": "phone",
+        "version": "4.0",
+        "description": "A mobile phone with a 6.5-inch display and 1TB storage",
+        "price": "$999",
+        "license": "MIT"
+    },
+    {
+        "category": "tv",
+        "version": "1.0",
+        "description": "A 55-inch 4K TV with HDR support",
+        "price": "$799",
+        "license": "MIT"
+    },
+    {
+        "category": "tv",
+        "version": "2.0",
+        "description": "A 65-inch 4K TV with HDR support",
+        "price": "$999",
+        "license": "MIT"
+    },
+    {
+        "category": "macbook",
+        "version": "1.0",
+        "description": "A MacBook with M1 chip and 256GB storage",
+        "price": "$1299",
+        "license": "MIT"
+    },
+    {
+        "category": "macbook",
+        "version": "2.0",
+        "description": "A MacBook with M1 chip and 512GB storage",
+        "price": "$1499",
+        "license": "MIT"
+    },
+    {
+        "category": "earbuds",
+        "version": "1.0",
+        "description": "Wireless earbuds with noise cancellation",
+        "price": "$199",
+        "license": "MIT"
+    },
+    {
+        "category": "earbuds",
+        "version": "2.0",
+        "description": "Wireless earbuds with noise cancellation and touch controls",
+        "price": "$249",
+        "license": "MIT"
+    }
+]
+
+create filter function for columns: category, version, price
+user can click to filter icon beside header of each columns to display a filter dialog
+user can check to checkbox to display the products that match the selected category, version, and price
+only the products that match the selected category, version, and price will be displayed in the table
+otherwise, in the dialog, the user can select all to display all products and uncheck all to display no products
+beside that, dialog also has a search box to filter the products by description 
+
+
+
+
+# requirements.txt
+# 
