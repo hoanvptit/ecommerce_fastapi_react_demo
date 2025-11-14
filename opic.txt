@@ -1,0 +1,675 @@
+R: Response
+E: Elaborate
+E: Example
+
+
+======================Introduce yourself=============================
+
+1. yourself
+Hi everyone, my name is Nguyen Van Hoa, but I prefer to be called Hoa. I'm 26 years old and the first child in my family. I have a younger brother who is 3 years younger than me. We live in Bac Giang Province, but I currently live in Hanoi for work. I usually go back to my hometown once a month at the weekend to visit my family and relax. I'm a big fan of football and badminton. I've been playing football since I was a kid, and I'm also a regular badminton player. In my free time, I also enjoy reading, listening to music, and playing chess. I'm looking forward to learning more about English and meeting new friends.
+
+3. what you do for a living
+=> Currently, I work as a software engineer for Samsung Electronics Vietnam. I have worked there for two years. My job relates to smartphones, websites,
+and programming. In addition, I also work as a freelancer; I usually spend 2 hours after work in order to do a second job at home to earn more money. 
+The job also involves developing the software. 
+
+4. what do you do in your free time
+=> Normally, I spend 9 to 10 hours working at the office, so most of my free time is in the evening. I usually watch some videos on YouTube and then 
+read a book before going to bed. Sometimes, I spend my free time hanging out with my friend; we have small talk or play some games at the game center.
+
+5. your hobbies
+=> Like other boys, I am also interested in playing football; I usually play 2 or 3 matches a week. Another sport to which I pay much attention is 
+badminton. I have played badminton since I was a kid. Beside that, I like reading; I often read novels or some books about my job. 
+They relate to programming, and it's helping me improve my skills and ability to promote in my career too.
+
+6. your normal daily routine
+=> Like most people, I work for a living. I spend 8 to 9 hours at the office, then I go to the gym. My company has a gym and sports center 
+on the basement floor. If I don't hit the gym, I will play a sport like table tennis or badminton after work. After workout time, I often eat out before
+going home. It helps me charge my batteries a lot. Then, I go home, take a shower, and read a book or watch some videos for relaxation. 
+I usually go to bed afterward at 11 p.m.
+
+7.  your best friend
+=>I think all people in the world have a best friend, even if they don't meet each other frequently, I also have a best friend. Her name is Lena.
+We became friends when we were in 7th grade. Until now, we have had 15 years of friendship. She is an energetic person, stunning, and always smiles.
+Now that she works in the logistics field, we don't have much time together any more, but we still contact each other via social media. Many years passed.We still have a good friendship.
+
+8.  what you usually do on the weekend.
+
+=> After a busy week, many people choose relaxation for the weekend, and I do too. I spend most of my weekend time hanging out with my friends and 
+playing some sports I like, such as badminton or football.
+In addition, I am also at home to do some housework, make room, and cook a lot. Because during the week, I don't have time to cook by myself.
+Other activities I usually do at the weekend are watching videos, reading books, and sleeping.
+
+
+=====================Working question====================================
+1. Can you describe one of your colleages that you work with? What does he/she look like
+=> Well, I have worked for 2 years when I graduated from university. My company has many departments, but each department is located on a separate floor.
+So I'm just familiar with my department.
+In my department, it's also divided into several small teams, and I only work with my team.
+Khuyen is the name of a colleague; he is older than me at 8 years old. He is not tall but very strong, with sort of black hair. 
+He always wears a t-shirt and jeans. He is a generous and eager member of my team and an intelligent, knowledgeable, and talented person.
+He helps me a lot when working; he was my mentor when I just joined the team. I'm so appreciative of that/ I appreciate his asistance.
+
+2. You indicated you work.Please give me a description of the company you work for. What is the name of the company? What kind of business does it do?
+Where is it located? Give me a detailed description of your company?
+=> After graduating from university two years ago, I now work for an IT company. My company is Samsung Electronics Vietnam. 
+My company is an overseas branch, along with many other branches of the global Samsung group.
+Which is famous for smartphones. We work in software engineering.For example, we create, maintain, and test applications. 
+Besides that, my company takes care of many other fields of modern technology, like websites,AI and smart devices. 
+Samsung Electronics Vietnam was established in 2008 and is located in Bac Ninh Province, Thai Nguyen Province, and Hanoi City, the capital of Vietnam.
+I work at a branch located in Hanoi City. Here, we have approximately 2000 employees from many regions of Vietnam. I am very proud to work for Samsung.
+I plan to stick around here for many year later.
+
+3. What kinds of projects do you normally work on?
+
+=> I now work for an IT company. My company involves many technologies, but I often work on the coding and optimization aspects. We create applications for smartphones and tools as well.
+After creating applications, sometimes we have to update, extend, and maintain them. Besides our own application, we also work with other applications.
+It can be the optimization code of some applications, tools that are developed for smartphones, or ways to make employees' work easier.
+With applications on smartphones, we make them run faster, smoother, and save power as much as possible.
+Recently, we also researched new technologies such as artificial intelligence, machine learning, and patenting.
+
+4. Tell me how you get from your house to work everyday from beginning to end. How long does it usually take to get to work?
+
+=> My company is approximately 10 kilometers from my house, so it takes me thirty minutes to go there. 
+In my country, people usually ride motorcycles to commute; I'm not an exception. I ride a motorcycle to work;
+I bought it one year ago when I saved a bit of money. Before that, I usually went to work by bus;
+it's more popular for students or people who don't care about time too much because it takes longer to go than a motorcycle or car.
+I'm very scared of the traffic jam; it's like a mess. Traffic jams occur regularly, and I struggle with congestion. 
+I hope the government will have a policy to improve traffic status in my country.
+
+5. You indicated you work. Where is your office located? And can you tell me what your office or work space looks like in as much detail as possible?
+
+=> Well, I graduated from university two years ago. Hence, I work for an IT company, Samsung Electronics Vietnam. In the Hanoi branch, my company consists of many departments, and each department is located on a separate floor.
+But their layout is the same. Each floor is divided into four zones: A, B, C, and D. A and B are working zones, and C and D are meeting or cafeteria zones.
+In the working zone, each small team has its own space. Normally, there are roughly 10 members in a working team. They sit together as a group that has related duties.
+Individual work spaces are distinct and compartmentalized from each other. Employees will be allocated a laptop with one or two screens in order to work according to demand.
+In order to ease the stress, employees can go to the pantry or cafeteria room to relax by eating or talking a bit. We can also go to the library on the second floor. There are many books and documents that can be used to improve our knowledge.
+
+6. What can you see when you look outside your office window? Describe what it looks like outside your office in as much detail as you can.
+
+=> I work in Samsung Tower, located in Hanoi, the capital of Vietnam. From my company, I can see many things outside through the window. For example,
+In front of my company is Hoa Binh Park, where there are many trees and a lake at the center of the park.
+People usually walk around the lake or exercise in the morning and afternoon.
+Besides the park, It's an intersection; traffic is always congested at rush hours. Congestion often occurs, so it impacts my time when I go to work.
+Sometimes I'm late because of congestion.
+Onward, there is a bridge across the road; it's the Mai Dich bridge. Behind my company, there are some other towers or restaurants.
+
+7. what is your normal workday like? Plese describe you typical day at the office.
+I work in the IT field, as do other employees in my country. I usually go to the office at 8 or around 8 a.m. Then, I often get a cup of coffee, make room on my table, open my laptop, and start working. My job relates to programming, checking issues, and reading documents. Usually, after an hour of working, I have 5 minutes to relax, and then I go back to my job. I have lunch with my colleagues at 12, which takes approximately 30 minutes. After that, we will take a nap and go back to work at 1 p.m.In the afternoon, I do the remaining work of the day and finish a workday at 6 p.m.
+
+8. I would like to know about any training you had to get to do the work at your current job.
+Please tell me about an orientation or a workshop you had to take when you started working?
+
+I have been working in the IT field for two years. When I started my job, I was trained in programming, such as programming languages and algorithms. These are the basics of coding; after that, I studied software architecture for advanced knowledge. In the probationary period, I had to do some seminars and some projects to practice. Besides major knowledge like that, I was also trained about company culture, how to work in a company, how to combine with co-workers, and how to develop personal skills. Those are some things I can remember from when I was an apprentice.
+
+
+9. You indicated in the survey that you work. Describe your manager or boss to me in detail. What kind of person is he or she?
+
+Well, In my company, I work on a team consisting of ten members. My team leader is Mr.Tinh; in terms of appearance, he is very tall with short black hair and always wears a shirt when he goes to the office. My leader is older than me—8 years old. He is the most experienced member of my team. Besides that, he is an intelligent and talented person. He is also a generous person; sometimes he invites my team to  his house for dinner. I learn a lot about working and life from him.
+
+10. Tell me about a project that you recently completed. What were the steps you took in order to begin and finish the project.
+
+In the two years since I joined my company, I have taken part in many projects, but the last project, which I completed last week, is about performance analysis.
+With a project like that, I have to measure some indexes, like the running time or consumed memory of the application. At the first step, I have to install the application on the device, which in this case is a smartphone. Next, I run some available test cases and get time when the application is running. Then, I checked the functions, which take a lot of time. In detail, I open the source code of the application, read the code, and find solutions to optimize the function. The target is to make the function and application run faster. After I finish analyzing, I make a report about the optimization and send it to my leader. He will assess the solution, and if it is good, I will apply it to the application. Each project like that normally takes me a week to complete.  
+
+11. There must have been a time when you worked to solve problems at work. Think of one of those times and describe the challenge and tell me what you did to overcome it.
+
+Yes, during my work, I have to solve many problems, and the most memorable time is the first time I worked at my current company. I had to fix an issue related to the lack of memory in the application. Without experience with this kind of task before, I had to struggle with the issue, which took me a week to solve, but the result wasn't good enough. So I bothered my colleagues to help me fix the issue. I very much appreciate that, and I also learn a lot from them. This lesson made me better, and next times I can deal with the problem by myself.
+
+12. What do you usually do at work? Do you read emails or attend meetings? What else do you do at work?
+
+At my company, we usually attend meetings at least once a week. The meeting is usually held on Monday in order to review the work we did last week and make the next steps. During my work, I often read emails sent by my colleagues and my partner. Normally, the content of emails relates to work,
+but sometimes it relates to personal things too. My job is software engineering, so I always work on coding, checking source code, and optimization. Testing is also an important part of my job. Beside that, I also attend some seminars at my company to improve my knowledge; they're very helpful for me.
+
+13. Tell me what your boss does on typical day. What are some of his responsibilities?
+
+My boss at the company is Mr. Tinh; he is a tall man. He is usually responsible for synthesizing the results, which members like me have completed before and made a report on in order to have a comprehensive assessment of the work. Sometimes he has to study new technology to create more jobs for other members. He also has responsibilities for working as a normal employee. The job relates to software engineering, so he also has to do programming, checking problems, and testing. Sometimes, when people in the company are frustrated because of work, he will talk with them, encourage them, create motivation, and soothe the stress.
+
+14 You indicated you work, when you go to work, where do you usually eat lunch? Who do you eat lunch with? Tell me as much as you can about lunch time at work.
+
+Although the time to attend the office is 9 o'clock, normally I arrive at my company 15 minutes before. My lunch time is from 12 to 1 p.m. because my company has an eating section on the 3rd floor, so I eat lunch there. I usually have lunch with my colleagues; we also work together as a team. In the eating section, there are 5 lines for 5 options, and everyone will choose 1 line and take the food, and then we choose the table and eat together. We often take 20 minutes for lunch; after that, we go back to the workspace and take a nap before going back to work.
+
+15. You indicated you work. What kinds of education programs are offerd at your company? What staff or department provides the programs?
+
+Well, besides working, improving personal skills, language, or major knowledge are very important at my company. There are many education programs or courses that I can join. For example, management skills, presentation skills, and communication skills are common at my company. These programs can be learned online or offline. If it is an online course, I can access internal websites that include many courses for employees. On the other hand, with offline courses, the human resources department will be in charge of organizing classes and notifying employees. Then, I and my colleagues register and take part in these classes. Human resources is the main department responsible for providing education programs. Normally, each month my company will hold at least one program for personnel; it can be about soft skills like problem-solving, decision-making, mental health, or a workshop about technology because my company is an IT company indeed. I see education programs as necessary for personal growth and the development of organizations. It provides learners with a lot of new knowledge and helps them become more confident. I really love programs like that, and I always embrace the chance to join all education programs and courses.
+
+
+========================================== Residency question===================
+
+1. I would like to talk about where you live. Describe your house to me. What does it look
+like? Where is it located?
+
+I live in a flat with my friends. There is a living room, a bedroom, and a bathroom in my house. It is decorated with some flower pictures on the wall. Besides that, we have some small trees in the house for fresh air. In my house, each member possesses a working table separately. We have a shoe rack to store our shoes. We also have a cooking area; sometimes I cook by myself unless I eat out. Although my company and my house are located in different district, both of them are in Ha Noi city. My house is approximately 10 kilometers from my company. It takes me 20 minutes to commute between my (office) workspace and home.
+
+2. Let talk about where you live. Tell me what you like and dont like about your neighborhood.
+
+Because my company is located in Hanoi, the capital of Vietnam, I also live there. I live in a house that's approximately 10 kilometers from my company. Near my house, there are a lot of grocery stores, and there's a market too. So it's very convenient for me to buy food or stuff. Sometimes, I also go to the park near my house to walk and exercise. It helps me relax and charge the battery after a busy day. My neighbors are very kind, generous, and friendly. But sometime in the evening, they sing a lot; it annoys me, and I can't focus on my work, such as reading or studying.
+	
+3. Tell me how you first met one of your neighbors. Describe in detail when you met and everything that happend during your first few meetings.
+
+When I first moved to my current room, I carried a lot of luggage, and when I entered the elevator, I met a girl who went out of the elevator. We say hello to each other. When she saw my mess, she helped me carry the luggage into my room. Coincidentally, our rooms are near each other. After finishing cleaning the room, I invited her to lunch; we had a meal together and a nice conversation. I really appreciate her help. After that, we have been good neighbors until now.
+
+4. Tell me what you do with your neighbors. How often do you see them? What do you like to do with them and what do you usually talk about with them?
+
+Well, I live in a room on the third floor, which is rented from the landlord. There are many tenants like me, but I usually only see the people who live on the same floor as me. Almost every day of the week, when I go to work, I meet them in the elevator. We usually talk about work, family, and personal life. They're so funny and friendly. Sometimes, at the weekend, we walk or play some sports together in the park. Besides that, we often cook and have meals together. Because we're in a closed neighborhood, they help me a lot in life. I really appreciate that. 
+
+5. Think back to the day when you moved into the place you live in. When did you move? Did you have anybody who help you? Tell me everything that happend on that moving day.
+
+Oh, Let me remember. It was a sunny day in the last summer, maybe six months ago. Because the old room was a bit small for my demand, I and my roommates decided to move to the new one. We have a lot of stuff, like working tables, chairs, clothes, and books. So we had to rent a truck to carry our utensils.
+The new room is approximately 5 kilometers from the old one. It took us 30 minutes to move. When we came to the new room, we had to bring all the utensils to the third floor because the room is there. Fortunately, one of our current neighbors helped us tidy up the mess. After that, all of us were exhausted, so we relaxed a bit before having lunch together. That's a memorable moment that I will never forget in my life. 
+
+6. Tell me what adults and children do together in your neighborhood.
+
+ There are many things that adults and children can do together. In my neighborhood, people have a habit of sharing household chores. For example, children can do chores while adults do dinner or lunch. Besides that, parents usually help their children do homework or teach them something like painting or singing. In the afternoon, I often see people playing together in the park; sometimes they play badminton, and sometimes I see them practice exercises together. I think, engage in  some activity together is an important part in life; it makes them more intimate and improves family bonding. 
+ 
+7. Tell me about the responsibilities you had at home when you were a child. What did your parents expect you to do? How did you handle those responsibilities.
+
+	When I was a kid, my main duty was to focus on studying because my parents expected me to become a good student. I would spend most of my time acquiring new knowledge after attending school. But, in my leisure time, I also helped my parents with household(/ˈhaʊs.hoʊld/) chores(/tʃɔːr/). At that time, I did some chores like sweep the floor, tidy up the room, or wash dishes. Besides that, I have a younger brother, so I also had to help him do homework, play with him, and look after him whenever my parents didn't stay at home. I always try to focus on learning during studying time, then I spend a specific time in the evening to complete my homework, and after that are other activities. 
+	
+8. When was the last time you went to the neighborhood park? Tell me everything: Where
+you went, who you went with, what you did, etc.
+	
+	Because at this time of the year is summer so many people in my area go to the park for relax or doing outside activities as walking, running, playing football or riding. There are many children in the park too, they can play with their parent or play with others children. The park is quite spacious with a lake in the center, aisle and trees around. I go to the park every weekend for exercise and improving health and the last time I went to the neighborhood park was last saturday. I went with my homemate for playing badminton.  When arrived the park, we played badminton first in roughly thirty minutes and running a bit until we felt tired,then we had a walk together around the lake. The atmosphere was quite bustle and noisy but the air was so fresh and cool because of wind blowing. We went back home after that and felt so comfort. I think park is very important today especially for urban area when population is increase and the green space is gradually narrowed day by day.
+
+9.Tell me about one memorable experience you had while at a park. Maybe something funny, unexpected or wonderful happened. Start with some background information about when and where this took place, who you were with and what you were doing in the park.
+And them tell me the story of what happened that day to make that visit so special.
+
+10. Think about a day when you helped a neighbor or a friend. Explain what the problem
+was, What you did to help, and how things turned out.
+
+	Yeah, I remember that was one day when I was working in my room in the evening, my neighbor in the next room knocked my door. She looked like not good because of fever and cough, so she need to go the drug store to buy medicine. But it was raining outside and she could not do it by herself. Because it could make her worse and she need my help. I stop my work and went to the medicine store to buy medicine. After ten minutes, I came back home with medicine and gave them to her. She drank the medicine and became better after that. The next day, she bought a water melon for me because of my help. I asked her about her health and she said that she felt better. We ate water melon together and it was so delicious. 
+
+11. What kind of community do you live in? Are the people mostly students? Newly-weds?
+Parents with children? Or retired people? Tell me also how you interest with your neighbors.
+
+12. I would like to know whether there were any memorable events that took place in your
+neighborhood since you started living there. Can you tell me about the event and why it
+was so memorable?
+
+=================House========================================
+1. I would like to know where you live. Can you describe your home to me? What does it look like? How many room does it have?
+I live in a house with my friends. There is a living room, a bedroom, and a bathroom in my house. The living room is decorated with some flower pictures on the wall. Besides that, we have some small trees in the house for fresh air. In my house, each member possesses a working table separately. We have a shoe rack to store our shoes. We also have a cooking area; sometimes I cook by myself unless I eat outside. In the bedroom, we have a closet to store our clothes, a bed, and a window. Through the window, I can see the garden of my neighbor. Well, Every time I take a look through the window, I feel fresh and comfortable because of the trees and wind from the garden. I am a homebody, so I love my house a lot. It makes me feel peaceful and relaxed.
+
+2. What is your normal routine at home? What do you usually do on weekdays and what do you do on weekends?
+
+Normally, on weekdays, I spend 9 to 10 hours working at the office, so most of my time at home is in the evening. After coming home from work, I have dinner with my friends, take a rest, and take a bath. After that, I usually watch some videos on YouTube and then read a book before going to bed. Sometimes I learn some new English words or practice my English skills. On weekends, because I have more time at home, I often do my housework, such as tidying up the room or doing laundry. I also cook lunch and dinner; it helps me save money and makes me feel healthier when I eat the meal I cooked myself. In the evening, I often watch a TV show or a movie that I can not do on weekdays because it takes a lot of time. That's my routine at home; nothing special, right? But it is, and I love it.
+
+
+4. I would like to know where you live. Talk about the different rooms in your home. Tell me about your favourite room. What do it look like?
+
+Well, I live in a house with my friend. It's not a spacious house, but I think it's enough for us. My house includes three main rooms: a living room, a bedroom, and a bathroom. The living room is the largest room where we set up our working tables and other furniture like a bookcase, fridge, and shoe rack. From the living room, we can enter the bedroom and the bathroom. The bed room is my favorite room; it's equipped with a dresser, a flower picture, and a bed with fluffy pillows. Besides that, it has a window that overlooks a green garden. Every time I sit on the bed and look through the window, I feel more relaxed and comfortable. Overall, my bedroom is the place where I can escape the stress of the world and recharge my batteries. 
+
+
+5. What kinds of things do you do to keep your house clean and confortable. What kinds of housework do you do at home?
+
+Well. I always desire to live in a clean and fresh environment, so I always try to keep my house clean. Normally, when I just wake up, I will make room on my bed. I like everything neat and tidy. To keep the house clean, I bought some cleaning supplies like the broom, the mop, and the laundry basket. I often try to arrange the shoe rack immediately when I come back home, tidy up my working table, and sweep the floor whenever I have time. Doing laundry frequently is also important. I often do laundry twice a week. Besides that, I also scrub the kitchen or the sink when I finish cooking. I think keeping the house clean is an important part of creating a fresh environment; it helps me feel relaxed and comfortable and improves the quality of my life.
+
+
+6. I would like to talk about where you live. Tell me about the different responsibilities in you home. Who is responsibility for what? How are these thing done?
+
+I live in a house with two of my friends. In my house, each member has their own responsibility for doing housework. For example, I often cook on the weekends, whereas my friends will cook on weekdays. There's a special thing: the member who is in charge of cooking will also be in charge of buying the food and washing the dishes after the meal. Other chores like sweeping the floor, rearranging the furniture, or doing laundry will be delegated for members depending on the time we have, or we can combine together to do the housework. We usually sweep the floor everyday, but with laundry, we do it twice a week. Because my house is not large and we arrange the furniture neatly, it's easy for us to do the chore. I always try to keep my house clean; it makes me feel fresh and comfortable.
+
+==========================Music================================
+
+1. The favorite music types, the favorite singer
+	summary:
+		-when and where you listen music? in the morning/evening
+		- do music help you anything in life? provide energy, lift the mood up/ relax, learn english
+		-type: pop, rock, rap, country music
+		- favorite type: pop and country music
+		- the favorite singer represent for the music type
+		-> why: his/her voice, style, characteristic, ?  taylor swift, her voice so sweet, the style is very catchy, good personality
+		
+		
+		=> Well, I'm the type of person who can listen to music all day, especially on the weekend. But on a weekday, I often listen to music in the morning, when I just wake up and do personal hygiene. It makes me feel fresh and provides me energy for the day. I also listen to music in the evening; it helps me relax a lot after a busy day. My favorite music types are pop and country music, both Vietnamese and US-UK songs. Although I am Vietnamese but my favorite singer is Taylor Swift, a American singer; her voice is so sweet, and her appearance is gorgeous ( /ˈɡɔːr.dʒəs/) too. She also has a good personality. I like her very much, and I wish someday I can meet her in person, not only on TV or online.
+		
+		
+
+
+2. the tools or places you frequently listen to music
+
+	sumary: 
+		- name of tool/ places - the address, 
+		- how often
+		- with who?
+		- how long you has been used the tool/ come there
+		
+		=> There are many applications or tools for listening to music nowadays, but I prefer Spotify the most. I have used that application for a long time, perhaps two years. I use it every day, both at home and outside. But sometimes I also go somewhere in the city to listen to music directly. The place that I prefer the most is Window Coffee. It's about 2 kilometers from my house. Every weekend, they hold a live music show with an amateur band, but it's fun and attracts many people. I often go there once a month with my friends. It helps me de-stress (relax) a lot.
+
+3. The change in music trend
+		Yeah, recently, the music trend has changed a bit from a few years ago. In the past, pop and ballads were typical music genres in my country. But as the years pass, rap and rock are becoming the most popular genres. For me, I love all of them; each kind of music has its own beauty. Pop and ballads with a nice and catchy melody make me feel relaxed every time I listen to them. Rap with a literal meaning, on the other hand, makes me feel more mature in my mind. I think everybody has their own music type, and all music genres are also wonderful. Music is an important part of life; it heals, eases the soul, connects people closer to each other, and makes life more beautiful.
+4. Tell about the impressive music show you took part in.
+	sumary:
+		- where and when? 1 year a go, stadium
+		- with who? friends
+		- what happend? an event 
+		
+		=> Well, this was an event that happened a year ago. A concert was organized at the stadium near my house. My friends and I decided to join the concert after considering carefully because we have to pay for the tickets. We prepared thoughtfully for that event and planned to go there early because the singer is our idol. But when we came there, the stadium was filled by people. It took us about fifteen minutes to find space to enjoy performances. When the atmosphere was fun and people were dancing together, it suddenly rained. But we didn't care about it; the crowd was still dancing and enjoying the performances. That night was a memorable moment that I will never forget.
+
+5. Compare two styles of music.
+		- well, to be honest I love music very much. I listening music every day. The music types that I often listen most are rap and ballads. They are very different in style. when it come to ballads, It has catchy and slight sense in lyric. Ballads is the most common music type in my country. It fit to many type of audience from teenager to the older. When listenning ballads, audience usually feel the calmness. But in terms of Rap, it has fast flow in lyric and melody. Rap almostly like speaking but faster a bit and rap have rhythm. This music type is often aimed at the young generation. For me I can listen and feel both of them, depend on circumstances. 
+
+6. Is there a new song or tool that has concerned people recently? why?
+
+7. Ask Eva about a violin performance she watched before.
+
+============================ Movie==========================
+
+1. Tell me about when you went to the movie recently. Who did you go with and how was that day? What did you do before the movie and what did you do after?
+	- sumary: 
+		+ name of movie
+		+ content of movie
+		+ feeling
+		
+		=>Actually, Watching movies is one of my hobbies. I often go to the cinema to watch movies one or two times a month, and the movie I just watched last week is "Face Off 6: The Ticket of Destiny.", It's the latest episode of a Vietnamese film series. I went to the cinema with my friends when we finished working. Before the film began, we ate some food because the movie lasted almost 3 hours, and then we had a wonderful movie time. The film was fascinating, with many humorous moments. The movie also exposed some aspects of life, such as love, money, and friendship.  After the movie, we went for a walk, talked about the film and other information about life. It was a perfect day for me; everything helped me relax and recharge my battery after a busy day.
+	
+2. Cinema description
+	- sumary:
+		+ where
+		+ name
+		+ outside
+		+ inside
+		
+	-> I often watch movies once a month with my friends, and the movie theater I often choose is the one near my house, approximately 2 kilometers away. It's a big theater with three ticket stations. There, people can buy not only tickets but also some other stuff like souvenirs, beverages, and snacks. While waiting for the movie to begin, people can have a seat and play some board games or have small talk together without paying. On weekends, it's usually filled with people because it's a fantastic place to relax with friends or family after a busy week. I like the cinema very much because of the nice views for taking pictures and it's also an interesting place to hangout with friends.
+	
+3. Favorite type of movie
+	-sumary
+		+ which type: 
+		+ why? 
+		+ a film for example: the lion king
+		
+		=> Actually watching movie is one of my hobbies. I usually watch movie at home every weekend. I watched many types of movie but my favourite one is cartoon. Most of cartoon films make me feel joyfull and it also help me relax after a busy week. The cartoon movie with vivid image, cute actions and nice song really attract me. The lastest cartoon movie that I watched was Lion King, it is famous movie around the world. The film not only interesting in terms of image or appearance but also touching people by warming  content. I heartedly love this film.
+		
+4. Movie theater experience
+
+	- When and where
+	- what happend
+	- what is the solution
+	- Feeling?
+	
+	-> I have gone to the movie theater to watch film many times and I also have many experiences with movie theater but the most memorable experience is the one that I and my friends went to cinema last week. When I and my colleages finish working on Friday, we decided to go to the cinema to watch movie for relaxation because we so tired after a busy week. We was very eager to watch the favourite film but when we arrived the cinema, the ticket was sold out. When we were preparing to go home with disapointment and sadness, a group of ticket bearer had their own busy and wanted to pass the ticket because they could not watch the movie at that time. We hold the chance immediately and finally we got the tickets and have an interesting watching movie session. 
+	
+5. Favorite actor
+	 -summary:
+		+ name
+		+ describe actor
+		+ reason
+		+ others
+		
+	-> There are many actors and actresses who have impressed me with their performances in movies. However, the actress I admire the most is Emma Watson, a British actress. She is well recognized for her role as Hermione in the Harry Potter film series. She also impressed me with this role, perhaps three years ago when I watched Harry Potter for the first time. She inspires people not only through her cinematic characters in movies but also by the way she conducts herself in real life. A gorgeous and talented individual, she is also independent and kind. In addition to her acting career, she is a successful businesswoman. She is truly a nice person whom people should emulate(bắt chước). I hope one day I can meet her in person.
+6. My favorite movie
+
+	-summary: 
+		+ name
+		+ type of movie
+		+ why?
+		+ how long from the last time watch it
+	
+		I have seen a variety of movies, but the one that impressed me the most was Harry Potter, which is based on a classic novel series of seven books. Each book has its own story, yet the plot flows seamlessly throughout the series. I enjoy this film because the plot is amazing and the approach used is quite interesting to me. Moreover, characters play an essential role in the film and contribute to its popularity. I first watched Harry Potter three years ago while still in university. I remember being impressed by Emma Watson’s performance as the character Hermione. She was a gorgeous, intellectual girl who was always smiling and kind. Her character evoked strong emotions in me. Over the years, I still love this film and sometimes watch Harry Potter again. The film is a part of children’s childhoods around the world.
+
+===========================Food===========================
+
+1. What are some of popular dishes in your country? Tell me about a particular dish. What is special about it? Please describe in detail.
+	
+	There are many popular dishes in my country; each region has its own signature food. For example, in Ha Noi on the North Side, Pho or Banh Mi are common dishes; In some other regions, some kind of rice cake or rice noodle and many other kinds of food are also famous.
+	Well, I cannot name all the famous dishes in my country, but the food I like most is probably pho, because I live in Ha Noi now. Pho is Vietnamese noodles soup. The main ingredients are rice noodles combined with sweet broth, some kinds of meat, and other elements like lemon, chilies, and spring onions. The broth is made by simmering cow or pig bones and combining them with various herbs. Although we call the dish is Pho, there are many kinds of Pho depending on the kind of ingredients used in it. Normally, we use chicken or beef in Pho. I like to eat Pho very much, especially on rainy days; it's really delicious and worth trying.
+	
+	=> (Vietnam is renowned for its culinary diversity, with each region boasting its own signature dishes. For instance, in Hanoi, located in the northern part of the country, Phở and Bánh Mì are famous dishes. Other regions are famous for their unique variations of rice cakes, rice noodles, and a plethora(số lượng lớn) of other delectable(ngon tuyệt) foods.
+	While it’s impossible to list all the celebrated(nổi tiếng) dishes of Vietnam, the one I hold in highest regard is undoubtedly Phở, particularly because I reside in Hanoi. Phở is a Vietnamese noodle soup that harmoniously blends rice noodles with a savory broth, various meats, and garnishes(đồ trang trí) such as lemon, chilies, and spring onions. The broth’s rich flavor is achieved by simmering cow or pig bones and infusing them with an assortment of herbs. Despite the general term “Phở,” the dish comes in numerous variations, distinguished by the specific ingredients incorporated. Typically, chicken or beef is used. I have a particular fondness for Phở, especially on rainy days; it’s not only scrumptious(ngon tuyệt) but also an experience worth savoring.)
+
+	=> Vietnam is known for its rich and diverse culinary traditions, with each region offering its own signature dishes. In the North, especially in Hanoi where I currently live, Phở and Bánh Mì are staples. In the Central and Southern regions, you’ll find a variety of rice cakes, noodle dishes, and vibrant street food that reflect local flavors and ingredients.
+	Among all these, the dish I enjoy most is definitely Phở. It’s a traditional Vietnamese noodle soup made with flat rice noodles, a savory broth, and either beef or chicken. The broth is the heart of the dish—it’s simmered for hours using beef bones and infused with spices like cinnamon, star anise, and ginger, along with fresh herbs. Garnishes like lime, chili, and spring onions add brightness and depth to the flavor.
+	I remember one rainy morning last winter when I stopped by a small Phở stall near my apartment. The place was quiet, and the steam rising from the bowls filled the air with a comforting aroma. That bowl of Phở was incredibly satisfying—not just because it was delicious, but because it reminded me of how food can bring warmth and familiarity, especially on cold days. Since then, it’s become my go-to comfort food.
+	Phở isn’t just a dish—it’s part of daily life here. Whether you’re grabbing a quick breakfast or sitting down for a family meal, it’s something that connects people across generations and regions.
+
+2. What do you eat on regular day? Tell me everything that you eat in detail.
+	On weekdays, I often spend 9 to 10 hours working at the office. My company has  a cafeteria area where  they provide lunch for all employees. each day features different dishes. I usually eat rice with a small piece of pork or chicken, a dish of vegetables, and a bowl of soup. After that, I have a small dish of fruits for dessert.Although the food is bland, it provides enough energy. It gives me energy and helps me focus for the working day. In the evening, when I finish my work at the office. I often eat out and sometimes I choose noodle soup for dinners. There are many kinds of noodles I can try in the restaurant, such as fish noodle, beef noodle, and pork noodle. Sometimes I cook instant noodles with an egg and some slices of meat by myself. When I have time, I also cook for dinner. In my opinion, cooking is also a perfect way to relax and enjoy life. This is about my meals on a regular day. I think, it's good, and I'm completely content with them.
+	
+	
+3. Many people try to eat healthy these day. What kinds of food are healthy and why are healthy for us?
+
+	Yes, eating healthy is becoming more popular today. More and more people care about their health, and having a balanced diet is one of the best ways for them to improve their health. Normally, people who eat healthy will choose clean, organic foods (People who eat healthy normally opt for clean, organic foods that are free of chemicals and pesticides( /ˈpes.tə.saɪd/ thuốc trừ sâu). Some kinds of foods that are good to eat healthy can be named as vegetables, fruits, and nutritious cereals (/ˈsɪr.i.əl/ - ngũ cốc). These categories of foods provide them with all the vital nutrients as their demand without having to eat too much; they also help people strengthen their muscles and maintain their energy. In addition, people who eat healthy still need meat in their meals, but not as much as normal. They prefer to use vegetable oil instead of animal fat in cooking. They usually try to stay away from fast food, which can ruin their bodies. I think, following a healthy lifestyle will become more widespread in the future because it's really efficient for health. I also like to eat healthy; although it requires much discipline,but it is worth trying.
+	
+	
+	“having a balanced diet”, “consuming nutritious food”, or “following a healthy lifestyle”.
+	
+4. How to you shop for healthy food? What kinds of things do you have to do to cook healthy food?
+	Well, following a healthy lifestyle is popular these days. I always try to buy healthy food every day. I often go to the supermarket or a renowned grocery store for shopping and choose fresh, raw foods like lean meat, fish and vegetables. Other foods I consider good for health are fruits, milk, and cereals. They give me all the crucial vitamins and nutrients I need. In contrast, fast food is never my choice because I know that it is not good for my health and could ruin my body. Sometimes I also go to the market that is near my house to buy food; I usually buy food from someone that I know before. In my house, I prefer low-fat food or boiled dishes to fried dishes; otherwise, I usually try to use vegetable oil instead of animal fat while cooking. I think, low-fat food that are easy to digest and low in calories is better for health than others; it also restricts some diseases. In addition to selecting fresh and nutritious food, in my opinion, building a routine for eating is also important. It helps me a lot to improve and maintain my health.
+	
+5. When was the last time you had some healthy food? Who was it with and how did you feel? What was special about that experience?
+
+========================== Travel ======================================
+
+1. You responded in the survey that you go on vacations internationally. I would like you to 
+describe one of the countries or cities you have visited. What was it like over there and 
+What kind of impression did you get from the locals?
+
+=> Last summer, I had the opportunity to go on an international vacation, and I chose Singapore as my destination. This island country in Southeast Asia left a lasting impression on me
+
+Singapore is well recognized as one of the most clean countries in the world.
+ When I took my first step in Singapore, I was so impressed by their environment. The weather there is cool because this country is covered by the ocean, and there are many green trees too. It's difficult to find trash on the road or in public places. Singapore has a thriving economy, so their services are very good and satisfy tourists. There is also diversity in food, especially seafood. The dishes are also tasty and delicious. The locals's awareness is also at a high level; they're generous, kind, and hospitable. Tourists can travel by train in Singapore with a ticket card without constraints. But because of prime services and food, the price there is a bit expensive. But I think it is worth trying. I think Singapore is an ideal place for traveling and relaxing. I was totally impressed with the environment, weather, and food there.
+
+=> "Last summer, I had the opportunity to go on an international vacation, and I chose Singapore as my destination. This island country in Southeast Asia left a lasting impression on me.
+
+Upon arriving in Singapore, I was immediately struck by its pristine environment. The city-state is renowned for its cleanliness, and it’s evident everywhere—from the streets to public spaces. The lush greenery(cây xanh), including numerous trees, adds to the pleasant atmosphere.
+
+The weather in Singapore is delightful. Being surrounded by the ocean, the country enjoys a cool climate. As I explored, I noticed the absence of litter on the roads and sidewalks—a testament to the locals’ commitment to cleanliness.
+
+Singapore’s thriving economy translates into excellent services for tourists. Whether it’s transportation, dining, or accommodation, everything is well-organized and efficient. Speaking of dining, the food scene is diverse and tantalizing. Seafood dishes, in particular, are a highlight, and I savored every bite.
+
+The locals are incredibly hospitable. Their awareness of environmental issues and kindness toward visitors impressed me. Tourists can conveniently travel around Singapore using a ticket card for the efficient train system.
+
+Admittedly, Singapore’s prime services and culinary delights come at a cost—the prices can be a bit high. However, I firmly believe that the experience is worth it. For travelers seeking a blend of relaxation and exploration, Singapore is an ideal destination. I left with fond memories of the environment, weather, and delectable food."
+
+2. Can you describe for me some of the things that you enjoy doing on your vacation?
+	I think not only for me but also others, the things that I enjoy in vacation are experience and relaxation. Many things I can do on vacation, for example, I can travel for sight seeing, trying delicious food or find experience which I can not try in normal life.
+	Normally, I usually combine above things in my vacation. When I travel to another country or another region, I often want to learn about the culture and locals's attraction. Beside that, tasting signature dishes and get the strange feeling is also in my plan. 
+	Others things that I can do are swiming in the ocean or climbing the mountain depend on the place I go to. I actually love vacations, they help me relax and healing after busy working days. Vacations also provided me energy for my life.
+	
+	
+	=> I believe that not only I, but also others, enjoy two key aspects of vacations: experience and relaxation. During my time off, I engage in various activities. For instance, I explore new sights, savor delicious food, and seek out unique experiences that aren’t part of my everyday life.
+
+Typically, I combine these elements during my vacations. When I travel to another country or region, I’m eager to immerse myself in the local culture and explore attractions that resonate with the locals. Additionally, I make it a point to taste signature dishes and embrace the unfamiliar.
+
+Furthermore, depending on the destination, I might swim in the ocean or climb mountains. Vacations provide me with much-needed relaxation and healing after busy workdays, replenishing my energy for daily life."
+	
+	
+3. Can you tell me what steps you have to take to get your destination on a trip? Tell me 
+what you do from the moment you leave your house to the moment you check into your 
+hotel your destination
+
+4.  When people think about traveling to other countries, what may be some of the things 
+they are most interested in? Why do you think these things are of such interest to 
+travelers
+ Describe some of things that you like to do with the people you visit or see during your 
+vacation.
+
+=> Today, traveling between different regions or countries is quite popular. People often consider traveling to other countries when they want to experience a new environment, learn about different cultures, or explore the world. Traveling to other countries can provide tourists with fresh feelings, unique experiences, and knowledge that they cannot gain from domestic travel. Additionally, delicious food and beautiful landscapes serve as additional incentives. When I travel to a new area, I often take pictures with people and engage in conversations with locals to gain a deeper understanding about the culture there. I also seek out native recommendations for signature dishes and famous restaurants in the area. Immersing myself in the local life style is always a priority.
+
+5. Could you describe your most memorable camping trip? Maybe something funny, unexpected or challenging happened. Start by telling me when and where you were camping and who you were with.
+
+Of course, I’ve had the chance to go camping with my friends many times, and the most memorable experience was last year. My colleagues and I went camping during our summer vacation. The camping area is located 20 kilometers from Hanoi, where we live. We started our trip at 8 am and arrived at the destination by 9. Upon arrival, we prepared food for lunch. Our plan was to have grilled chicken as the main dish, along with salad and other side dishes. However, when we cut into the chicken, we discovered that it was still raw. Despite our hunger, we had to grill the chicken again, and after an additional 30 minutes, we were finally able to taste our meal. It was a memorable experience and a valuable lesson for us.”
+
+===========================ROLE PLAY - STORE=============================
+1. I'd like to give you a situation and ask you to act it out. You're at a clothing store and need to get some clothes. Ask three or four questions about the clothes you would like to buy.
+
+		- Hi, I would like to buy some shirts for my birth day, but this is the first time I come here. Can you suggest me something?
+		- Thank you, what kinds of shirts do you have? I usually wear shirt both at home and outside.
+		- What do you think of the orange or green one, they so adorable. which one suits me better?
+		- I prefer the green one to the orange because the color make me you relax and comfortable, whereas the orange one is too bright. Can I try it on before buying it.
+		- Perfect, the green shirt completely fit me well, How much does the it cost?
+		- great, that’s a good deal for such a high-quality shirt and renowned domestic brand. Thank you for your support.
+
+
+2. I'd like to give you a situation and ask you to act it out. You see a sign at your favourite store that says that they are having a big sale. Go to the store and ask three or four questions to get as much as possible about the sale.
+
+	- Hi I've just seen the big sale label at your store, right? I expect this day for a long time. When is the sale program begined?
+	-oh, wonderful. What kind of mechandise will be discounted in this occasions? I look forward to Jean and shirt will be in the deal, I want to buy them before but the price too high.
+	- oh great, Is there any condition to join the deal? What are the condition? I am a loyal customer of your store, so I feel very excited with this promotion program.
+	- So, can I return or exchange items that not working properly? 
+	- fantastic, I can't wait anymore till the begining day.
+
+3. That's the end of situation. Have you ever bought something that did not work or was demaged? Tell me about your item you bought that dit not function properly or was damaged. Explain what the items was, what was wrong with it and what you did to resolve this situation.
+	- Of course, it was summer day three years ago. When I was using my laptop without plugging in the battery, the power gradually decreased until the laptop was shut down. After that, I took the charger to charge the battery, but my laptop could not turn on again. I called the warranty service hotline, described the situation, and asked them to check the reason. They said that maybe there was a problem with the battery and it needed to be replaced with a new one. The cost of replacing it is quite high. Fortunately, my PC was still under warranty, so the battery was replaced with a new one without extra charge. Unbelivable, It was so amazing. I used to worry about it very much because, at that time, I didn't have the money to get a new battery. After all, it seems like nothing happened with my PC. Until now, it's still a memorable moment in my university time.
+
+4. I'd like to give you a situation and ask you to act it out. There is a newly opened store  in your neighborhood. Call your friend who knows about the new store and ask some questions about the store to get some information.
+
+	- Hello I heard that there is a newly opened store next to our area, is it right?
+	- Do you know anything about it?
+	- What do they sell there? I hope it is a grocery store because the market is quite far from my house.
+	- I plan to go there for store grand openning, do you want to go with me?
+		It will be very exciting event and we can buy something with discount.
+		of course, we will buy a small gift to congratulate them.
+	- Oke I will pick you up at 7 pm. See you soon.
+
+5. I'd like to give you a situation and ask you to act it out.Your friend told you about a food store that he or shoe goes to. Call your friend and ask about the food store to get some information.
+	Hello, I remember you said you knew a food store that serve delicious food, right? I plan to eat out with my girl friend but I dont know what should we eat tonight.
+	- Can you give me the name of the store, of course I also need its address to
+	- How is the menu there? Are the dishes diverse?
+	- I also concern about their services and the view to
+	- Ohh, really I love restaurant that has table outside so we can enjoy the fresh air and see the sky too.
+	How about the price there, is it reasonable.
+	Yes, I believe that place is superb for a dating.
+	Thanks you for you help.
+
+====================Role play - travel=========================
+
+1/ You are planning on going on a trip. Call a travel agency and ask 3-4 questions about the trip you want to go on.
+
+
+=> Hi, I plan to go to Nha Trang in September, so I call you to ask for some information about the trip. 
+The first is, What are the famous attractions in Nha Trang? I'd never been there before.
+I'm planning to travel with my family; I'm looking up a package trip. Do you have any suggestions for me?
+They sound great, but how about the expenditure for a five-day trip?
+Is the breakfast or hotel service included in the package price?
+Oh, really, I think the cost is reasonable.
+the information is enough for me. I will contact you later. Thanks.
+
+
+
+
+2/ You need to buy a train ticket to go visit your friend weekend. Go to the ticket counter at the train station and ask 3-4 questions to get the information you need to book a ticket.
+
+
+Hi, I am about to go to Ha Noi to visit my friend. I would like to get a ticket. When will the train start on Saturday morning?
+How long does it take? Oh, I don't expect it to be fast like that.
+I'm concerning about the expense of a round-trip ticket. How about it? I will be back here on Tuesday.
+Do you provide food on the train? What kinds of food do you have?
+that great, It's so convenient.
+One more question. What can I do if I forget my ticket?
+Oh, I got it. Actually, this is the first time I travel by train, and I hope it will be a nice trip. Thanks so much.
+
+
+
+
+3/ You are planning on going on a trip to a country where your friend lives. Call your friend and ask about the geography there. And then, ask 2-3 questions regarding your travel plans.
+
+
+Hello, what are you doing? I'm so excited about the trip to your home.
+Can you tell a bit about the geography there? where do you like to go the most?
+Oh, I think it's a wonderful destination.
+As you know, I will stay there for a week. On the first day, I think we should go somewhere around your home. What do you think about it?
+And then, do you like a trip to the city center? Yeah, it will be interesting.
+Do you have any ideas for the next few days? Immerse yourself in the sea, take a sunbath, and enjoy the delicious seafood. It's so amazing, right?
+Oh, I can't wait any longer until that day.
+Now, I have to go prepare something for this trip. See you soon. Bye.
+
+
+4/ You need to rent a car for about a week. Call the rental agency and ask several questions about the car you want to rent. 
+
+- Hi, I have a plan to go to Ha Noi for a week, so I want to rent a car for my trip.
+- I would like to rent a car for 5 persons. Do you have any car  like that.
+- Yeah, How abou the cost for a week. is the price include car insurance
+- Oh the price is reasonable but I like the car with black shell
+- Because I'm going on a long trip so I want to check the car before renting it
+- Oke, please ship the car on Monday. I will deposit ten percent if the car is good
+- Thank you , see you soon.
+
+
+====================================Restaurant==============================
+
+1. Talk about your favourite restaurant? what is the special thing?
+
+- I am a person who really love food, I also have chance to try food in others restaurant but the one I like most is the Korean restaurant that near my house. It is a grilled and hotpot restaurant. The dishes there are quite diverse and the food is really delicious. I can sense the sweet flavor in every slice of meet, the fresh vegetable. Beside food, I like the restaurant because of beautify view with green color is majority. The way they decorate the restaurant bring confortable feeling to customer. Services is also important, their services is really good, they take care customer and willingly answer my question. The restaurant left lasting impression on me because it was the place that I have opportunity to take partin the party with my current company. Because it is quite close to my house so I frequently linger there for having dinner with my friends.
+
+2. Talk about the restaurant that you often have dinner? How do you go there, how often and what is special thing?
+
+- There are a lot of restaurant that I often linger for diner. Because I frequently eat out so I choose the one that near my company as my priority.
+it is approximately 1 kilometers from my office so I can walk there easily, it normal takes me 5 minutes to commute but sometime, I go there by motorbike too, especially when I go with my friends. I often have dinner at that restaurant 3 times a month, it is a Korean restaurant named Gogihoue.
+the main dishes there is grilled and hotpot with diverse type of food like chicken, beef, seafood and variety of vegetable. The food is very fresh and delicious. I can sense the sweet flavor in every slice of meet. The special thing of restaurant that left lasting impression on me is beauiful view and decoration of restaurant. Services is also wonderful, stuff is nice and friendly, they always smile and wilingly answer questions of customer.
+
+
+
+
+
+
+===================== Daily Routines========================
+1. Please describe your typical weekday routine from morning to evening
+-Outline:
+	+ wake up at 6:00
+	+ do personal hygiene while listening music
+	+ do exercise
+	+ take a shower
+	+ have slight breakfast
+	+ go to work
+	+ spent time to work
+	+ have lunch with co-workers at 12:00, return to work at 1.pm
+	+ finish working at 6:00
+	+ go to the gym at fitness center, helps me relieve stress and improve help
+	+ come back home
+	+ prepare dinner
+	+ relax: reading book, watching videos
+	+ go to bed at 11:00
+- Detail:
+	On my typical weekday, I often wake up around 6.am, then I do my personal hygiene while listening to music. Sometimes I also do a quick exercise in the morning. After that I take a shower, it helps me feel fresh and comfortable. Normally I have a light breakfast with an egg and some toast.
+	I prepare to go to work at 8.am. On a workday, I spend most of my time at office, from 8.am to 6.pm. My work is related to coding and programing. I often have lunch at 12:00 with my co-workers and then I take a short nap and return to work at 1 p.m.
+	After work, I go to the gym  for an hour at the fitness center, I like going to the gym because it helps me relieve stress and improve my health as well. When I get home, I prepare dinner, wash the dishes and relax by watching videos or reading a book. I usually go to sleep around 11:00.
+	
+2. What do you usually do after work or school?
+- Outline:
+	+ Introduce the job, lead to fitness center
+	+ Do the gym/ play sport: badminton
+	+ Benefit of exercising
+	+ Go home and cook dinner
+	+ Relax: reading books, watching tv/videos
+	+ Go to sleep.
+
+- Detail:
+	Currently, I work as a programer for an IT company, in there, we have a fitness center at the basement floor. So, typically, after work, I often go to the fitness to work out, I love the gym because it helps me relieve stress, improve my health and  build a nice body. Although I usually go to the gym, sometimes I prefer playing badminton with my colleagues, especially when I feel energetic. this is my favorite sport, I have been playing badminton for a long time. I find that exercising after work helps me stay focused the next day.  Normally, I spend an hour for sport before coming home to prepare dinner, take a shower and enjoy a meal. At the end of the day, I relax a bit by reading books or watching tv. I usually go to sleep around 11pm. which gives me enough rest to feel refreshed the next day.
+3. How do you spend your weekends? Is it different from your weekdays?
+-Outline:
+	+ Spend more time to relaxation
+	+ wake up later than normal
+	+ hangout with friend or go to coffee/ go to park
+	+ go to supermarket to buy stuff
+	+ sometimes, return to hometown to visit family
+-Detail:
+	+ For weekends, I usually have a different routine compared to weekdays. Because I have more time on weekends, I also usually wake up later than normal. I like the feeling of lying on the bed on the weekend and I usually wake up around 9.00, then I have breakfast and go to the supermarket to buy supplies. On the weekdays, I spend most of my time at office so I often buy essentials like food at the supermarket once a week. In the afternoon, I often hang out with friends at the park or go to the coffee shop. Sometimes we have small talk about life, work. But sometimes, we play games or sports together. Besides spending time to relax, I also spend time for my family at the weekends. My hometown is approximately 50km from my rental, therefore I often returnn to my hometown to visit my family once or twice a month. I think weekend is necessary for relaxing and recharge the battery after a busy week, it helps me refresh and feel full of energy for a new week.
+	
+4. What do you usually do during lunchtime?
+-Outline:
+	+ talk about common information: working time, morning activity
+	+ lunchtime: from 12 to 1pm
+	+ during: have lunch with co-workers, talking, 
+	+ after: relax, take a short nap
+	+ return to work
+	+ on weekend: have luch alone/ have lunch with family
+- Detail:
+	+ Currently, I work as a software engineer at an IT company. Our office has a cafeteria, so during lunchtime, my colleagues and I usually go there to eat together. While enjoying our meal, we often have casual conversations—we talk about life, work-related challenges, or whatever comes to mind.
+	After lunch, we usually take a short nap or relax for a bit. This helps us recharge and feel refreshed for a productive afternoon. We typically return to work around 1 p.m.
+	On weekends, I don’t go to the office, so my lunchtime routine is different. I often spend it alone or with my family. Since my hometown is not far from where I live, I usually visit my family once or twice a month. That’s the main difference between my weekday and weekend lunch routines.
+
+
+======================== Hobbies=========================
+1. What is your favorite hobby and how often do you do it?
+- Outline:
+	+ common information: have many hobbies: listen to music, play badminton, do the gym,...
+	+ favourite hobby: play badminton
+	+ play 2-3 days a week
+	+ play for a long time, from in high school until now
+	+ benifit: relieve stress, improve health, connect with friends
+
+- Details:
+	+ I believe everyone has their own hobbies, and they play an important role in making life more enjoyable. Personally, I have several hobbies such as listening to music, going to the gym, and playing badminton. Among them, badminton is the one I enjoy the most.
+	I’ve been playing badminton since high school, and it has remained a regular part of my routine. These days, I usually play two or three afternoons a week, mostly with my coworkers. Occasionally, I also play with close friends, especially on weekends when we have more free time.
+	What I love about badminton is not just the game itself, but the benefits it brings. It helps me relieve stress after a long day at work, improves my physical health, and allows me to connect with others socially. It’s a great way to stay active while having fun.
+	In the future, I plan to continue playing badminton regularly. I also hope to introduce it to more people around me, because I believe it’s a sport that can benefit anyone—regardless of age or skill level.
+	
+2. How did you get started with this hobby?
+- Outline:
+	+ Introduce hobbies
+	+ When and how: since high school, played with classmate and family member
+	+ Feel exciting and benifit 
+	+ => nutrue the passion until now
+	+ current routine: play two or three afternoons a week, with co-workers and friends
+	+ future: continue playing
+	
+- Detail
+	I started playing badminton when I was in high school. Back then, my classmates and I treated it as a fun and casual game. But as time went on, we realized how exciting and beneficial it was—not just for fitness, but also for building friendships. That’s when I developed a real passion for it.
+	These days, I play regularly with my colleagues, usually two or three afternoons a week. It’s a great way to stay active and connect with others. In the future, I plan to keep playing and introduce the sport to more people, because I believe badminton is exciting, accessible, and enjoyable for everyone. It’s truly become an essential part of my life.	
+
+	
+3. What do you need to enjoy this hobby (equipment, space, time)?
+- Outline
+	+ Shoes, racket, shuttlecock
+	+ can play in many places: in the yard, in the park. Badminton court is better
+	+ partner
+	+ each match last in 15mins
+	
+- Detail: 
+	Badminton is an exciting sport that requires some basic equipment. To play, I need a racket, a shuttlecock, and of course, a partner. I also wear comfortable sportswear and shoes to protect my body and move easily. I can play in different places. In the past when I was a newbie in this sport, I often play in my yard or at the park—but because of the weather and in order to push the competitiveness, now I usually play indoors at a badminton court. It helps us play more effectively and improve our skills. Choosing the right partner is also important. Playing with someone at a similar level makes the game more balanced and enjoyable. For profestional level, badminton games always are held indoor court, normally one match last in 15 to 20 minutes,and can be played in four format, men single, women single, men double, women double or mix double with referee. Badminton is an essential part of my life and I plan to play this sport regularly in the future.
+	
+4. Describe a typical day when you enjoy your hobby.
+- Outline:
+	+ Describe a typical day: go to work -> finish working -> play badminton
+	+ Prepare sportsware/shoes/racket/water/towel
+	+ play badminton in 2 hour: 6-8pm
+	+ relax, have diner
+	+ on weekend: play in the morning/afternoon,play with family member
+	
+- Detail:
+	+ Badminton is my favorite hobby. Every week, I usually play two or three afternoons with my colleagues. I normally play after work, so in the morning before going to the office, I prepare my equipment—sportswear, shoes, and a racket. I also bring water to stay hydrated and a towel to wipe off sweat.
+	Each match lasts about 20 minutes and requires a lot of energy. On weekdays, I usually play from 6 to 8 p.m. After playing, I relax at the court for a while before heading home for dinner.
+	On weekends, I have more free time, so I play either in the morning or afternoon depending on my mood. I often play with my family instead of my coworkers.
+	Badminton is an important part of my life. It helps me stay healthy, connect with others, and feel happy.
+
+
+====================== Weather======================
+1 Describe the weather in your hometown.
+What is it like throughout the year? Which season do you enjoy the most, and why?
+-Outline:
+	+ thanks for borning in Vietnam
+	+ 4 season in years
+	+ tropical weather
+	+ favorite season: autumn
+		+ fresh and clean air
+		+ moderate temperature
+		+ suitable for activities
+		+ relax and unwind
+		
+- Detail:
+	+ Honestly, I feel proud to have been born in Vietnam, a country with four distinct seasons: spring, summer, autumn, and winter. Each season has its own beauty and unique characteristics, and together they create a diverse climate typical of tropical regions.
+Personally, I enjoy autumn the most. The air is fresh and clean, and the moderate temperatures make me feel relaxed and comfortable. During this season, I often go for morning walks to breathe deeply and enjoy the peaceful atmosphere. It’s also a great time for outdoor activities. In the afternoons, I usually go to the park to play football or badminton with my friends.
+Overall, the weather in Vietnam is pleasant throughout the year, and I think it contributes to people feeling happy and energized.
+
+
+2 Talk about a time when the weather affected your plans.
+What were you planning to do, and how did the weather change things?
+- Outline:
+	+ weather affects to many aspect of life
+	+ plan to play football with friends
+	+ but it rain suddenly
+	+ can not play
+	+ postpone the match, 
+	+ lesson: listen weather forecast before planing somethings
+	
+- Detail: 
+	+ I think weather plays an important role in people’s activities, and it often affects my plans.
+For example, last week, my friends and I planned to play a football match on the weekend. We prepared carefully and were excited for the game.
+However, just as we arrived at the pitch, it suddenly started raining heavily. We waited for an hour, but the rain didn’t stop.
+As a result, the match was postponed, and we had to reschedule it for another day. We returned home feeling disappointed.
+This experience taught me that it’s important to check the weather forecast before making plans.
+
+
+3 What kind of weather do you prefer?
+Do you like sunny days, rainy days, or cold weather? Explain your preference.
+- Outline:
+	+ each kind of weather has it characteristics and beauty
+	+ Like sunny days the most
+	+ feeling to engage in outdoor activities
+	+ love swimming
+	+ easy to choose the clothes on sunny days
+	
+- Details:
+	+ In my opinion, each kind of weather has it own characteristics and beauty. The feeling and experience they bring to people are also different.
+	Among them, I prefer sunny weather the most. Since I am a person that like outdoor activities and sports, sunny days make me feel eager and energized to engage in those activities. Especially, I have a huge passion with swimming, and summer is perfect time to enjoy swimming.
+	On other hand, rainny and cold weather make me feel just want to stay at home, reading books or watching film and enjoy warm meal.
+	In short, I prefer sunny days to others. But sometimes, I also love rainy or cold weather as well. It depends on my mood.
+4 How do people in your country prepare for extreme weather?
+For example, what do they do during typhoons, heatwaves, or snowstorms?
+5 Describe a recent day when the weather was especially memorable.
+What made it stand out? How did it affect your mood or activities?
+6 Compare the weather in two places you’ve been.
+How are they different? Which one did you like better?
+7 How does the weather affect your daily routine?
+For example, does it change how you commute, dress, or spend your free time?
