@@ -74,7 +74,6 @@ class User(Document):
     username: str
     email: str
     hashed_password: str
-    role: str = "user"
 
     class Settings:
         name = "users"

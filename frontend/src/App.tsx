@@ -7,6 +7,7 @@ import { CategoryList } from './components/CategoryList';
 import { AuthProvider } from './context/AuthContext';
 import { useAuth } from './hooks/useAuth';
 import Login from './components/Login';
+import Register from './components/Register';
 import ProductTable from './components/ProductTable';
 
 // Protected Route component
@@ -53,6 +54,8 @@ function App() {
               <Box>
                 <Routes>
                   <Route path="/login" element={<Login />} />
+                  <Route path="/register" element={<Register />} />
+
                   <Route path="/" element={
                     <ProtectedRoute>
                       <ProductList />

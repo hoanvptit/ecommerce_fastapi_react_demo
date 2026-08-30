@@ -6,7 +6,6 @@ class UserBase(BaseModel):
 
 class UserCreate(UserBase):
     password: str = Field(..., min_length=6)
-    role: str = 'user'
 
 class UserLogin(BaseModel):
     username: str
@@ -33,7 +32,6 @@ class User(UserBase):
                 "username": "johndoe",
                 "email": "john@example.com",
                 "password": "strongpassword123",
-                "role": "user"
             }
         }
     }

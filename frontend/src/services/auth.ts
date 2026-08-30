@@ -1,4 +1,4 @@
-import { LoginCredentials, AuthResponse, User } from '../types/auth';
+import { LoginCredentials, AuthResponse, User, RegisterCredentials } from '../types/auth';
 import axios, { AxiosError, AxiosInstance } from 'axios';
 
 const API_URL = 'http://localhost:8000';
@@ -85,6 +85,28 @@ const authService = {
             
             localStorage.setItem('token', access_token);
             localStorage.setItem('refreshToken', refresh_token);
+            return response.data;
+        } catch (error) {
+            if (error instanceof AxiosError) {
+                throw new Error(error.response?.data?.detail || 'Login failed');
+            }
+            throw error;
+        }
+    },
+    async register(credentials: RegisterCredentials): Promise<AuthResponse> {
+        try {
+            // Create URLSearchParams to match OAuth2 form data format
+            const formData = new URLSearchParams();
+            formData.append('username', credentials.username);
+            formData.append('email', credentials.email);
+            formData.append('password', credentials.password);
+            
+            const response = await api.post('/users/register', formData.toString(), {
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded'
+                }
+            });
+        
             return response.data;
         } catch (error) {
             if (error instanceof AxiosError) {

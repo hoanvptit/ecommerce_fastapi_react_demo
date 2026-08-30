@@ -37,6 +37,15 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
             throw error;
         }
     };
+    const register = async (username: string, email: string, password: string) => {
+        console.log('Registering user:', { username, email, password });
+        try {
+            await authService.register({ username, email, password });
+        } catch (error) {
+            console.error('Registration failed:', error);
+            throw error;
+        }
+    };
 
     const logout = () => {
         authService.logout();
@@ -45,7 +54,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
     };
 
     return (
-        <AuthContext.Provider value={{ user, loading, login, logout, isAuthenticated }}>
+        <AuthContext.Provider value={{ user, loading, login, register, logout, isAuthenticated }}>
             {children}
         </AuthContext.Provider>
     );

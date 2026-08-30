@@ -2,7 +2,7 @@ import os
 from datetime import datetime, timedelta
 from typing import Any
 
-from fastapi import APIRouter, Depends, HTTPException, status
+from fastapi import APIRouter, Depends, HTTPException, Request, status
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from jose import JWTError, jwt
 from passlib.context import CryptContext
@@ -76,17 +76,17 @@ async def get_current_user(token: str = Depends(oauth2_scheme)) -> UserModel:
 
 @router.post(
     "/register",
-    response_model=User,
     status_code=status.HTTP_201_CREATED,
     responses={
         400: {"description": "Username or email already exists"},
         422: {"description": "Validation error in input data"},
     },
 )
-async def register_user(user: UserCreate) -> Any:
+async def register_user(request: Request) -> Any:
+    data = await request.form()
     existing_user = await UserModel.find_one(
-        UserModel.email == user.email
-    ) or await UserModel.find_one(UserModel.username == user.username)
+        UserModel.email == data.get("email")
+    ) or await UserModel.find_one(UserModel.username == data.get("username"))
     if existing_user:
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
@@ -94,14 +94,13 @@ async def register_user(user: UserCreate) -> Any:
         )
 
     db_user = UserModel(
-        username=user.username,
-        email=user.email,
-        hashed_password=get_password_hash(user.password),
-        role=user.role,
+        username=data.get("username"),
+        email=data.get("email"),
+        hashed_password=get_password_hash(data.get("password")),
     )
     db_user.id = await get_next_sequence("users")
     await db_user.insert()
-    return db_user
+    return {"message": "User registered successfully"}
 
 
 @router.post("/login", response_model=Token)
@@ -157,3 +156,26 @@ async def refresh_token(refresh_token_payload: RefreshToken) -> Any:
 @router.get("/me", response_model=User)
 async def read_users_me(current_user: UserModel = Depends(get_current_user)) -> Any:
     return current_user
+
+# @router.get("/register", response_model=User)
+# async def register_user(
+#     user: UserCreate,
+# ) -> Any:
+#     existing_user = await UserModel.find_one(
+#         UserModel.email == user.email
+#     ) or await UserModel.find_one(UserModel.username == user.username)
+#     if existing_user:
+#         raise HTTPException(
+#             status_code=status.HTTP_400_BAD_REQUEST,
+#             detail="Email or username already registered",
+#         )
+
+#     db_user = UserModel(
+#         username=user.username,
+#         email=user.email,
+#         hashed_password=get_password_hash(user.password),
+#         role=user.role,
+#     )
+#     db_user.id = await get_next_sequence("users")
+#     await db_user.insert()
+#     return db_user
