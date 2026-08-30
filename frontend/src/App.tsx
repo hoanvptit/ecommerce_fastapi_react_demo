@@ -11,7 +11,6 @@ import { CategoryList } from './components/CategoryList';
 import { AuthProvider } from './context/AuthContext';
 import { useAuth } from './hooks/useAuth';
 import Login from './components/Login';
-import Register from './components/Register';
 import ProductTable from './components/ProductTable';
 
 // Protected Route component
@@ -245,48 +244,7 @@ function App() {
   return (
     <AuthProvider>
       <Router>
-<<<<<<< HEAD
-        <Box sx={{ flexGrow: 1 }}>
-          <AppBar position="static">
-            <Toolbar>
-              <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                E-Commerce Store
-              </Typography>
-            </Toolbar>
-          </AppBar>
-          <Container sx={{ mt: 3 }}>
-            <MainContent>
-              <Box>
-                <CategoryList />
-              </Box>
-              <Box>
-                <Routes>
-                  <Route path="/login" element={<Login />} />
-                  <Route path="/register" element={<Register />} />
-
-                  <Route path="/" element={
-                    <ProtectedRoute>
-                      <ProductList />
-                    </ProtectedRoute>
-                  } />
-                  <Route path="/category/:categoryId" element={
-                    <ProtectedRoute>
-                      <ProductList categoryId={Number(window.location.pathname.split('/')[2])} />
-                    </ProtectedRoute>
-                  } />
-                  <Route path="/products/table" element={
-                    <ProtectedRoute>
-                      <ProductTable />
-                    </ProtectedRoute>
-                  } />
-                </Routes>
-              </Box>
-            </MainContent>
-          </Container>
-        </Box>
-=======
         <AppContent />
->>>>>>> 54c4a007dde8fbf622804474b09653c93b2812b0
       </Router>
     </AuthProvider>
   );
