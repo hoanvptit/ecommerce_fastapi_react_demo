@@ -1,35 +1,29 @@
-from fastapi import APIRouter, Depends, HTTPException
-from sqlalchemy.orm import Session
+from fastapi import APIRouter, HTTPException
 from typing import List
+
 from ..schemas.category import Category, CategoryCreate
-from database.database import SessionLocal
-from database.models import Category as CategoryModel
+from database.models import Category as CategoryModel, get_next_sequence
 
 router = APIRouter()
 
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
 
 @router.get("/", response_model=List[Category])
-def read_categories(skip: int = 0, limit: int = 100, db: Session = Depends(get_db)):
-    categories = db.query(CategoryModel).offset(skip).limit(limit).all()
+async def read_categories(skip: int = 0, limit: int = 100):
+    categories = await CategoryModel.find_all().skip(skip).limit(limit).to_list()
     return categories
 
+
 @router.get("/{category_id}", response_model=Category)
-def read_category(category_id: int, db: Session = Depends(get_db)):
-    category = db.query(CategoryModel).filter(CategoryModel.id == category_id).first()
+async def read_category(category_id: int):
+    category = await CategoryModel.find_one(CategoryModel.id == category_id)
     if category is None:
         raise HTTPException(status_code=404, detail="Category not found")
     return category
 
+
 @router.post("/", response_model=Category)
-def create_category(category: CategoryCreate, db: Session = Depends(get_db)):
-    db_category = CategoryModel(**category.dict())
-    db.add(db_category)
-    db.commit()
-    db.refresh(db_category)
+async def create_category(category: CategoryCreate):
+    db_category = CategoryModel(name=category.name)
+    db_category.id = await get_next_sequence("categories")
+    await db_category.insert()
     return db_category

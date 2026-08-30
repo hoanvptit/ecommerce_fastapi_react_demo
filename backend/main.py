@@ -1,9 +1,6 @@
 import uvicorn
-from app import create_app
-from database import models, database
 
-# Create tables
-models.Base.metadata.create_all(bind=database.engine)
+from app import create_app
 
 app = create_app()
 
