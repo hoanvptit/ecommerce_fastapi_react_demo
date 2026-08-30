@@ -24,13 +24,13 @@ const ProtectedRoute = ({ children }: { children: React.ReactNode }) => {
   return <>{children}</>;
 };
 
-const MainContent = styled(Box)<{ theme?: Theme }>(({ theme }) => ({
+const MainContent = styled(Box)(({ theme }: { theme: Theme }) => ({
   display: 'grid',
-  gridTemplateColumns: {
-    xs: '1fr',
-    [theme.breakpoints.up('md')]: '250px 1fr'
-  },
+  gridTemplateColumns: '1fr',
   gap: theme.spacing(3),
+  [theme.breakpoints.up('md')]: {
+    gridTemplateColumns: '250px 1fr',
+  },
 }));
 
 function App() {

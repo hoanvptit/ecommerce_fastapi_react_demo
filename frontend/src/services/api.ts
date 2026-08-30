@@ -83,4 +83,15 @@ export const getProductsByCategory = async (categoryId: number): Promise<Product
     return response.data;
 };
 
+export interface CreateProductPayload {
+    name: string;
+    price: number;
+    category_id: number;
+}
+
+export const createProduct = async (product: CreateProductPayload): Promise<Product> => {
+    const response = await api.post('/products', product);
+    return response.data;
+};
+
 export default api;
