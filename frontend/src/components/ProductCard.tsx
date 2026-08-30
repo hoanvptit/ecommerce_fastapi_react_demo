@@ -16,7 +16,7 @@ export const ProductCard = ({ product }: ProductCardProps) => {
                     ${product.price}
                 </Typography>
                 <Typography variant="body2">
-                    {product.description}
+                    {product.description || 'No description provided'}
                 </Typography>
             </CardContent>
         </Card>
