@@ -1,47 +1,82 @@
-from sqlalchemy import Column, Integer, String, Float, ForeignKey
-from sqlalchemy.orm import relationship
-from .database import Base
+from typing import Optional
 
-class Category(Base):
-    __tablename__ = "categories"
+from beanie import Document
+from pydantic import ConfigDict, Field
 
-    id = Column(Integer, primary_key=True, index=True)
-    name = Column(String(100), nullable=False)
-    products = relationship("Product", back_populates="category")
 
-class Product(Base):
-    __tablename__ = "products"
+class Counter(Document):
+    name: str
+    value: int = 1
 
-    id = Column(Integer, primary_key=True, index=True)
-    name = Column(String(200), nullable=False)
-    price = Column(Float, nullable=False)
-    category_id = Column(Integer, ForeignKey("categories.id"))
-    category = relationship("Category", back_populates="products")
-    cart_items = relationship("Cart", back_populates="product")
+    class Settings:
+        name = "counters"
 
-class Customer(Base):
-    __tablename__ = "customers"
 
-    id = Column(Integer, primary_key=True, index=True)
-    name = Column(String(100), nullable=False)
-    address = Column(String(255), nullable=False)
-    phone_number = Column(String(20), nullable=False)
-    cart_items = relationship("Cart", back_populates="customer")
+async def get_next_sequence(name: str) -> int:
+    counter = await Counter.find_one(Counter.name == name)
+    if counter is None:
+        counter = Counter(name=name, value=1)
+        await counter.insert()
+        return counter.value
 
-class Cart(Base):
-    __tablename__ = "cart"
+    counter.value += 1
+    await counter.save()
+    return counter.value
 
-    id = Column(Integer, primary_key=True, index=True)
-    customer_id = Column(Integer, ForeignKey("customers.id"), nullable=False)
-    product_id = Column(Integer, ForeignKey("products.id"), nullable=False)
-    customer = relationship("Customer", back_populates="cart_items")
-    product = relationship("Product", back_populates="cart_items")
 
-class User(Base):
-    __tablename__ = "users"
+class Category(Document):
+    id: Optional[int] = Field(default=None, alias="_id")
+    name: str
 
-    id = Column(Integer, primary_key=True, index=True)
-    username = Column(String(50), unique=True, nullable=False)
-    email = Column(String(100), unique=True, nullable=False)
-    # role = Column(String(50), nullable=True)
-    hashed_password = Column(String(255), nullable=False)
+    class Settings:
+        name = "categories"
+
+    model_config = ConfigDict(populate_by_name=True)
+
+
+class Product(Document):
+    id: Optional[int] = Field(default=None, alias="_id")
+    name: str
+    price: float
+    category_id: int
+
+    class Settings:
+        name = "products"
+
+    model_config = ConfigDict(populate_by_name=True)
+
+
+class Customer(Document):
+    id: Optional[int] = Field(default=None, alias="_id")
+    name: str
+    address: str
+    phone_number: str
+
+    class Settings:
+        name = "customers"
+
+    model_config = ConfigDict(populate_by_name=True)
+
+
+class Cart(Document):
+    id: Optional[int] = Field(default=None, alias="_id")
+    customer_id: int
+    product_id: int
+
+    class Settings:
+        name = "cart"
+
+    model_config = ConfigDict(populate_by_name=True)
+
+
+class User(Document):
+    id: Optional[int] = Field(default=None, alias="_id")
+    username: str
+    email: str
+    hashed_password: str
+    role: str = "user"
+
+    class Settings:
+        name = "users"
+
+    model_config = ConfigDict(populate_by_name=True)

@@ -1,60 +1,54 @@
-import sqlite3
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
-from database.models import Base, Category, Product, Customer, Cart
+import asyncio
+import os
 
-# SQLite connection
-sqlite_conn = sqlite3.connect('ecommerce.db')
-sqlite_cursor = sqlite_conn.cursor()
+from beanie import init_beanie
+from motor.motor_asyncio import AsyncIOMotorClient
 
-# MySQL connection
-MYSQL_URL = "mysql+pymysql://hoanv:abc13579@localhost/ecommerce"
-mysql_engine = create_engine(MYSQL_URL)
-SessionLocal = sessionmaker(bind=mysql_engine)
-db = SessionLocal()
+from database.models import Category, Counter, Product, User
 
-# Create all tables in MySQL
-Base.metadata.create_all(mysql_engine)
 
-try:
-    # Migrate Categories
-    sqlite_cursor.execute('SELECT id, name FROM categories')
-    categories = sqlite_cursor.fetchall()
-    for cat_id, name in categories:
-        category = Category(id=cat_id, name=name)
-        db.add(category)
-    db.commit()
+async def seed_mongodb() -> None:
+    mongo_url = os.getenv("MONGODB_URL", "mongodb://localhost:27017/ecommerce")
+    client = AsyncIOMotorClient(mongo_url)
+    database = client.get_default_database()
 
-    # Migrate Products
-    sqlite_cursor.execute('SELECT id, name, price, category_id FROM products')
-    products = sqlite_cursor.fetchall()
-    for prod_id, name, price, category_id in products:
-        product = Product(id=prod_id, name=name, price=price, category_id=category_id)
-        db.add(product)
-    db.commit()
+    await init_beanie(database=database, document_models=[Category, Product, User, Counter])
 
-    # Migrate Customers
-    sqlite_cursor.execute('SELECT id, name, address, phone_number FROM customers')
-    customers = sqlite_cursor.fetchall()
-    for cust_id, name, address, phone_number in customers:
-        customer = Customer(id=cust_id, name=name, address=address, phone_number=phone_number)
-        db.add(customer)
-    db.commit()
+    categories = [
+        {"name": "phone"},
+        {"name": "tv"},
+        {"name": "macbook"},
+        {"name": "earbuds"},
+    ]
 
-    # Migrate Cart
-    sqlite_cursor.execute('SELECT id, customer_id, product_id FROM cart')
-    cart_items = sqlite_cursor.fetchall()
-    for cart_id, customer_id, product_id in cart_items:
-        cart_item = Cart(id=cart_id, customer_id=customer_id, product_id=product_id)
-        db.add(cart_item)
-    db.commit()
+    for category in categories:
+        exists = await Category.find_one(Category.name == category["name"])
+        if exists is None:
+            doc = Category(name=category["name"])
+            doc.id = 1 if not await Category.find_all().to_list() else (await Category.find_all().to_list())[-1].id + 1
+            await doc.insert()
 
-    print("Migration completed successfully!")
+    products = [
+        {"name": "Phone 1.0", "price": 699.0, "category_id": 1},
+        {"name": "Phone 2.0", "price": 799.0, "category_id": 1},
+        {"name": "TV 1.0", "price": 799.0, "category_id": 2},
+        {"name": "MacBook 1.0", "price": 1299.0, "category_id": 3},
+        {"name": "Earbuds 1.0", "price": 199.0, "category_id": 4},
+    ]
 
-except Exception as e:
-    print(f"Error during migration: {e}")
-    db.rollback()
+    for product in products:
+        exists = await Product.find_one(Product.name == product["name"])
+        if exists is None:
+            doc = Product(
+                name=product["name"],
+                price=product["price"],
+                category_id=product["category_id"],
+            )
+            doc.id = 1 if not await Product.find_all().to_list() else (await Product.find_all().to_list())[-1].id + 1
+            await doc.insert()
 
-finally:
-    db.close()
-    sqlite_conn.close()
+    print("MongoDB seed completed.")
+
+
+if __name__ == "__main__":
+    asyncio.run(seed_mongodb())
