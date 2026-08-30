@@ -2,8 +2,9 @@ export interface Product {
     id: number;
     name: string;
     price: number;
-    description: string;
+    description?: string;
     category_id: number;
+    category?: Category;
 }
 
 export interface Category {
