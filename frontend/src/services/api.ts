@@ -94,4 +94,13 @@ export const createProduct = async (product: CreateProductPayload): Promise<Prod
     return response.data;
 };
 
+export interface CreateCategoryPayload {
+    name: string;
+}
+
+export const createCategory = async (category: CreateCategoryPayload): Promise<Category> => {
+    const response = await api.post('/categories', category);
+    return response.data;
+};
+
 export default api;
