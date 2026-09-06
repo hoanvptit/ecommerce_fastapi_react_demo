@@ -1,5 +1,23 @@
 import { useEffect, useState } from 'react';
-import { List, ListItem, ListItemButton, ListItemText, Typography, Paper, Box, Skeleton, Chip } from '@mui/material';
+import type { FormEvent } from 'react';
+import {
+  Alert,
+  Box,
+  Button,
+  Chip,
+  Dialog,
+  DialogActions,
+  DialogContent,
+  DialogTitle,
+  List,
+  ListItem,
+  ListItemButton,
+  ListItemText,
+  Paper,
+  Skeleton,
+  TextField,
+  Typography,
+} from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { useNavigate } from 'react-router-dom';
 import GridViewIcon from '@mui/icons-material/GridView';
@@ -51,23 +69,51 @@ export const CategoryList = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<number | null>(null);
+  const [addDialogOpen, setAddDialogOpen] = useState(false);
+  const [categoryName, setCategoryName] = useState('');
+  const [addError, setAddError] = useState<string | null>(null);
+  const [adding, setAdding] = useState(false);
   const navigate = useNavigate();
 
-  useEffect(() => {
-    const fetchCategories = async () => {
-      try {
-        const data = await getCategories();
-        setCategories(data);
-        setError(null);
-      } catch (err) {
-        setError('Failed to fetch categories');
-      } finally {
-        setLoading(false);
-      }
-    };
+  const fetchCategories = async () => {
+    try {
+      const data = await getCategories();
+      setCategories(data);
+      setError(null);
+    } catch {
+      setError('Failed to fetch categories');
+    } finally {
+      setLoading(false);
+    }
+  };
 
+  useEffect(() => {
     fetchCategories();
   }, []);
+
+  const handleAddCategory = async (event: FormEvent) => {
+    event.preventDefault();
+    const name = categoryName.trim();
+    if (!name) {
+      setAddError('Category name is required');
+      return;
+    }
+
+    setAdding(true);
+    setAddError(null);
+    try {
+      const category = await createCategory(name);
+      setCategories((currentCategories) => [...currentCategories, category]);
+      setCategoryName('');
+      setAddDialogOpen(false);
+    } catch (addCategoryError) {
+      setAddError(
+        addCategoryError instanceof Error ? addCategoryError.message : 'Failed to add category',
+      );
+    } finally {
+      setAdding(false);
+    }
+  };
 
   const handleCategoryClick = (categoryId: number | null) => {
     setSelectedCategory(categoryId);
@@ -86,6 +132,17 @@ export const CategoryList = () => {
           <Typography variant="h6" sx={{ fontWeight: 700, fontSize: '16px' }}>
             Categories
           </Typography>
+          <Button
+            size="small"
+            variant="contained"
+            onClick={() => {
+              setAddError(null);
+              setAddDialogOpen(true);
+            }}
+            sx={{ ml: 'auto', minWidth: 0, color: 'white', borderColor: 'rgba(255,255,255,.6)' }}
+          >
+            Add
+          </Button>
         </SidebarHeader>
         <Box sx={{ p: 2 }}>
           <Typography color="error" variant="body2">
@@ -214,6 +271,39 @@ export const CategoryList = () => {
           />
         </Box>
       )}
+
+      <Dialog
+        open={addDialogOpen}
+        onClose={() => !adding && setAddDialogOpen(false)}
+        fullWidth
+        maxWidth="xs"
+      >
+        <Box component="form" onSubmit={handleAddCategory}>
+          <DialogTitle>Add category</DialogTitle>
+          <DialogContent>
+            {addError && <Alert severity="error" sx={{ mb: 2 }}>{addError}</Alert>}
+            <TextField
+              autoFocus
+              fullWidth
+              required
+              label="Category name"
+              value={categoryName}
+              onChange={(event) => setCategoryName(event.target.value)}
+              disabled={adding}
+              inputProps={{ maxLength: 50 }}
+              sx={{ mt: 1 }}
+            />
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={() => setAddDialogOpen(false)} disabled={adding}>
+              Cancel
+            </Button>
+            <Button type="submit" variant="contained" disabled={adding}>
+              {adding ? 'Adding...' : 'Add category'}
+            </Button>
+          </DialogActions>
+        </Box>
+      </Dialog>
     </StyledPaper>
   );
 };
