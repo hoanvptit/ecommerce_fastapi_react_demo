@@ -1,4 +1,4 @@
-import { LoginCredentials, AuthResponse, User, RegisterCredentials } from '../types/auth';
+import { LoginCredentials, RegisterCredentials, AuthResponse, User } from '../types/auth';
 import axios, { AxiosError, AxiosInstance } from 'axios';
 
 const API_URL = 'http://localhost:8000';
@@ -68,6 +68,18 @@ api.interceptors.response.use(
 );
 
 const authService = {
+    async register(credentials: RegisterCredentials): Promise<User> {
+        try {
+            const response = await api.post('/users/register', credentials);
+            return response.data;
+        } catch (error) {
+            if (error instanceof AxiosError) {
+                throw new Error(error.response?.data?.detail || 'Registration failed');
+            }
+            throw error;
+        }
+    },
+
     async login(credentials: LoginCredentials): Promise<AuthResponse> {
         try {
             // Create URLSearchParams to match OAuth2 form data format

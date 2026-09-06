@@ -1,106 +1,149 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { useAuth } from '../hooks/useAuth';
+import { Link as RouterLink, useNavigate } from 'react-router-dom';
+import {
+  Alert,
+  Box,
+  Button,
+  Card,
+  CircularProgress,
+  Link,
+  TextField,
+  Typography,
+} from '@mui/material';
+import { styled } from '@mui/material/styles';
+import PersonAddIcon from '@mui/icons-material/PersonAdd';
+import authService from '../services/auth';
+
+const RegisterContainer = styled(Box)(() => ({
+  minHeight: '100vh',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  background: 'linear-gradient(135deg, #2563eb 0%, #1d4ed8 50%, #7c3aed 100%)',
+  padding: '16px',
+}));
+
+const RegisterCard = styled(Card)(() => ({
+  maxWidth: 420,
+  width: '100%',
+  borderRadius: '16px',
+  boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.25)',
+  border: '1px solid rgba(255, 255, 255, 0.1)',
+}));
+
+const CardContent = styled(Box)(() => ({
+  padding: '32px',
+}));
 
 const Register: React.FC = () => {
-    const [username, setUsername] = useState('');
-    const [password, setPassword] = useState('');
-    const [email, setEmail] = useState('');
-    const [error, setError] = useState('');
-    const [loading, setLoading] = useState(false);
-    const navigate = useNavigate();
-    const { register } = useAuth();
+  const [username, setUsername] = useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
+  const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
+  const navigate = useNavigate();
 
-    const handleSubmit = async (e: React.FormEvent) => {
-        e.preventDefault();
-        setError('');
-        setLoading(true);
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault();
+    setError('');
 
-        try {
-            await register(username,email, password);
-            navigate('/');
-        } catch (error) {
-            setError(error instanceof Error ? error.message : 'Failed to register');
-        } finally {
-            setLoading(false);
-        }
-    };
+    if (password !== confirmPassword) {
+      setError('Passwords do not match');
+      return;
+    }
 
-    return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
-            <div className="max-w-md w-full space-y-8">
-                <div>
-                    <h2 className="mt-6 text-center text-3xl font-extrabold text-gray-900">
-                        Sign in to your account
-                    </h2>
-                </div>
-                <form className="mt-8 space-y-6" onSubmit={handleSubmit}>
-                    {error && (
-                        <div className="rounded-md bg-red-50 p-4">
-                            <div className="text-sm text-red-700">{error}</div>
-                        </div>
-                    )}
-                    <div className="rounded-md shadow-sm -space-y-px">
-                        <div>
-                            <label htmlFor="username" className="sr-only">
-                                Username
-                            </label>
-                            <input
-                                id="username"
-                                name="username"
-                                type="text"
-                                required
-                                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                                placeholder="Username"
-                                value={username}
-                                onChange={(e) => setUsername(e.target.value)}
-                            />
-                        </div>
-                        <div>
-                            <label htmlFor="username" className="sr-only">
-                                Email address
-                            </label>
-                            <input
-                                id="email"
-                                name="email"
-                                type="email"
-                                required
-                                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                                placeholder="Email address"
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
-                            />
-                        </div>
-                        <div>
-                            <label htmlFor="password" className="sr-only">
-                                Password
-                            </label>
-                            <input
-                                id="password"
-                                name="password"
-                                type="password"
-                                required
-                                className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 focus:z-10 sm:text-sm"
-                                placeholder="Password"
-                                value={password}
-                                onChange={(e) => setPassword(e.target.value)}
-                            />
-                        </div>
-                    </div>
+    setLoading(true);
+    try {
+      await authService.register({ username, email, password });
+      navigate('/login');
+    } catch (registrationError) {
+      setError(
+        registrationError instanceof Error
+          ? registrationError.message
+          : 'Failed to register',
+      );
+    } finally {
+      setLoading(false);
+    }
+  };
 
-                    <div>
-                        <button
-                            type="submit"
-                            disabled={loading}
-                            className="group relative w-full flex justify-center py-2 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-                        >
-                            {loading ? 'Registering...' : 'Register'}
-                        </button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    );
+  return (
+    <RegisterContainer>
+      <RegisterCard>
+        <CardContent>
+          <Typography variant="h5" sx={{ fontWeight: 700, color: '#1f2937', textAlign: 'center' }}>
+            Create your account
+          </Typography>
+          <Typography variant="body2" sx={{ color: '#6b7280', mt: 1, mb: 3, textAlign: 'center' }}>
+            Join ShopHub today
+          </Typography>
+
+          <form onSubmit={handleSubmit}>
+            {error && <Alert severity="error" sx={{ mb: 2 }}>{error}</Alert>}
+            <TextField
+              fullWidth
+              label="Username"
+              value={username}
+              onChange={(event) => setUsername(event.target.value)}
+              margin="normal"
+              required
+              disabled={loading}
+              autoFocus
+            />
+            <TextField
+              fullWidth
+              label="Email"
+              type="email"
+              value={email}
+              onChange={(event) => setEmail(event.target.value)}
+              margin="normal"
+              required
+              disabled={loading}
+            />
+            <TextField
+              fullWidth
+              label="Password"
+              type="password"
+              value={password}
+              onChange={(event) => setPassword(event.target.value)}
+              margin="normal"
+              required
+              disabled={loading}
+              inputProps={{ minLength: 6 }}
+            />
+            <TextField
+              fullWidth
+              label="Confirm password"
+              type="password"
+              value={confirmPassword}
+              onChange={(event) => setConfirmPassword(event.target.value)}
+              margin="normal"
+              required
+              disabled={loading}
+            />
+            <Button
+              fullWidth
+              variant="contained"
+              type="submit"
+              disabled={loading}
+              startIcon={loading ? <CircularProgress size={20} color="inherit" /> : <PersonAddIcon />}
+              sx={{ mt: 3, py: 1.5, textTransform: 'none', borderRadius: '8px' }}
+            >
+              {loading ? 'Creating account...' : 'Create account'}
+            </Button>
+          </form>
+
+          <Typography sx={{ mt: 3, textAlign: 'center', color: '#6b7280', fontSize: '14px' }}>
+            Already have an account?{' '}
+            <Link component={RouterLink} to="/login" sx={{ color: '#2563eb', fontWeight: 600 }}>
+              Sign in
+            </Link>
+          </Typography>
+        </CardContent>
+      </RegisterCard>
+    </RegisterContainer>
+  );
 };
 
 export default Register;
