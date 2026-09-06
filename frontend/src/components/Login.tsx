@@ -141,7 +141,7 @@ const Login: React.FC = () => {
                 fontSize: '24px',
               }}
             >
-              ShopHub
+              Shop Mall
             </Typography>
             <Typography
               variant="body2"
@@ -338,7 +338,7 @@ const Login: React.FC = () => {
           >
             Don't have an account?{' '}
             <Link
-              href="#"
+              href="/register"
               sx={{
                 color: '#2563eb',
                 fontWeight: 600,

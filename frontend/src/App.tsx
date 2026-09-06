@@ -129,7 +129,7 @@ function AppContent() {
                 letterSpacing: '-0.5px',
               }}
             >
-              ShopHub
+              Shopping Mall 2
             </Typography>
           </LogoSection>
 
