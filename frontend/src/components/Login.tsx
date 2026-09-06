@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link as RouterLink, useNavigate } from 'react-router-dom';
 import {
   Box,
   Card,
@@ -239,7 +239,8 @@ const Login: React.FC = () => {
                 }
               />
               <Link
-                href="#"
+                component={RouterLink}
+                to="/register"
                 sx={{
                   fontSize: '14px',
                   color: '#2563eb',
