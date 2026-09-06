@@ -160,6 +160,17 @@ export const CategoryList = () => {
         <Typography variant="h6" sx={{ fontWeight: 700, fontSize: '16px' }}>
           Categories
         </Typography>
+        <Button
+          size="small"
+          variant="contained"
+          onClick={() => {
+            setAddError(null);
+            setAddDialogOpen(true);
+          }}
+          sx={{ ml: 'auto', minWidth: 0, color: 'white', borderColor: 'rgba(255,255,255,.6)' }}
+        >
+          Add
+        </Button>
       </SidebarHeader>
       <List sx={{ p: 0 }}>
         <ListItem disablePadding>
@@ -201,7 +212,7 @@ export const CategoryList = () => {
               </Box>
             </ListItem>
           ))
-        ) : (
+        ) : categories.length > 0 ? (
           categories.map((category, index) => (
             <ListItem key={category.id} disablePadding>
               <StyledListItemButton
@@ -237,6 +248,12 @@ export const CategoryList = () => {
               </StyledListItemButton>
             </ListItem>
           ))
+        ) : (
+          <Box sx={{ p: 2 }}>
+            <Typography variant="body2" color="text.secondary">
+              No categories yet. Add a category before creating products.
+            </Typography>
+          </Box>
         )}
       </List>
 
